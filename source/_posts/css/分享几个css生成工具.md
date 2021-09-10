@@ -25,15 +25,15 @@ tags: css
 
 ![image.png](https://img-blog.csdnimg.cn/img_convert/7a45985f49af774ea9329d233cc4e922.png)
 
-*[CSS Grid Generator](https://cssgrid-generator.netlify.app/)
+* [CSS Grid Generator](https://cssgrid-generator.netlify.app/)
 
 ![image.png](https://img-blog.csdnimg.cn/img_convert/54ddf664a2f1c27f119dbe8a2ffe5360.png)
 
-*[CSS Accordion Slider Generator](https://accordionslider.com/)
+* [CSS Accordion Slider Generator](https://accordionslider.com/)
 
 ![image.png](https://img-blog.csdnimg.cn/img_convert/4aec11b0212bc25a284dfdc0d6e8249b.png)
 
- *[CSS clip-path maker](https://bennettfeely.com/clippy/)
+* [CSS clip-path maker](https://bennettfeely.com/clippy/)
  
  
 ![image.png](https://img-blog.csdnimg.cn/img_convert/ea1c9a3378d007e50c2c4b80e2b3dcc5.png)
