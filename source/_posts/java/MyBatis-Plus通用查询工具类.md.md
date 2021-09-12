@@ -1,9 +1,10 @@
 ---
 title: MyBatis-Plus通用查询工具类
-date: 2021-09-10 10:39:04
+date: 2021-09-10 20:39:04
 tags:
      - mybatis-plus
      - java
+categories: Java
 ---
 
 

@@ -1,10 +1,11 @@
 ---
 title: ssl证书结合Nginx搭建https站点(免费证书)
-date: 2021-09-10 10:30:49
+date: 2021-09-10 20:30:49
 tags: 
       - https
       - nginx
       - linux
+categories: Nginx
 ---
 #   创建ssl证书
 

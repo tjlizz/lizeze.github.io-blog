@@ -1,9 +1,10 @@
 ---
 title: nvm安装node
-date: 2021-09-10 10:32:36
+date: 2021-09-10 20:32:36
 tags:
      - nvm
      - node
+categories: 工具
 ---
 
 ## 安装

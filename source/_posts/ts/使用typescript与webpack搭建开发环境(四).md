@@ -1,9 +1,10 @@
 ---
 title: 使用typescript与webpack搭建开发环境(四)
-date: 2021-09-10 11:33:15
+date: 2021-09-10 21:33:15
 tags:
       - typescript
       - webpack
+categories: TypeScript
 ---
 
 

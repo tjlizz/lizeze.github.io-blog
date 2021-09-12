@@ -1,10 +1,12 @@
 ---
 title: 搭建maven私有仓库.
-date: 2021-09-10 11:00:39
+date: 2021-09-10 21:00:39
 tags:
       - java
       - maven
       - nexus
+categories: 工具
+            
 ---
 
 # 下载安装包

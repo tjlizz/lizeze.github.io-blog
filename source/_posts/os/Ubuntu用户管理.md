@@ -1,8 +1,9 @@
 ---
 title: Ubuntu用户管理
-date: 2021-09-10 10:04:44
+date: 2021-09-10 20:04:44
 tags: ubuntu
-categories: linux
+categories: 操作系统
+
 ---
 
 ## 新增用户

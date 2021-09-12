@@ -1,8 +1,9 @@
 ---
 title: Springboot使用@value注入静态属性
-date: 2021-09-10 10:44:39
+date: 2021-09-10 20:44:39
 tags: 
      - springboot
+categories: Java
      
 ---
 # Springboot @value 注解注入静态属性

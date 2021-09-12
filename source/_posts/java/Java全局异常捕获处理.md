@@ -1,9 +1,10 @@
 ---
 title: Java全局异常捕获处理
-date: 2021-09-10 10:37:39
+date: 2021-09-10 20:37:39
 tags: 
       - java
       - 异常
+categories: Java
 ---
 
 

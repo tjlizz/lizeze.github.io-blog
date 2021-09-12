@@ -1,8 +1,8 @@
 ---
 title: Ubuntu群组管理
-date: 2021-09-10 10:06:29
+date: 2021-09-10 20:06:29
 tags: ubuntu
-categories: linux
+categories: 操作系统
 ---
 # 群组管理
 在`Linux`中，每个用户都有一个群组。

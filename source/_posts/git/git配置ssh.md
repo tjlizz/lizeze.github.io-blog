@@ -1,9 +1,10 @@
 ---
 title: git配置ssh
-date: 2021-09-10 11:02:39
+date: 2021-09-10 21:02:39
 tags:
      - git
      - ssh
+categories: 工具
 ---
 
 ## 在github上新增ssh
@@ -23,4 +24,4 @@ $ git config --global user.email 你的邮箱
 $ git config --global push.default matching
 $ git config --global core.quotepath false
 $ git config --global core.editor "vim"
-```
+```  

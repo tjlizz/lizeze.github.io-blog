@@ -1,9 +1,10 @@
 ---
 title: linux安装Nginx
-date: 2021-09-10 10:29:22
+date: 2021-09-10 20:29:22
 tags: 
      - nginx
      - linux
+categories: Nginx
 ---
 ```shell
 $ sudo yum install -y epel-release

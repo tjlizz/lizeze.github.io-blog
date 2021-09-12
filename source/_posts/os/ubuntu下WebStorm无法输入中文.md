@@ -1,9 +1,10 @@
 ---
 title: ubuntu下WebStorm无法输入中文
-date: 2021-09-10 10:22:23
+date: 2021-09-10 20:22:23
 tags: 
       - ubuntu
       - webstorm 
+categories: 操作系统
 ---
 
 你现在使用的输入法具体是什么？另外你是用 ibus 的吗？

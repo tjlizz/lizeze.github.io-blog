@@ -1,10 +1,10 @@
 ---
 title: 使用typescript与webpack搭建开发环境(二)
-date: 2021-09-10 11:17:28
+date: 2021-09-10 21:17:28
 tags: 
       - typescript
       - webpack
-     
+categories: TypeScript
 ---
 
 **静态资源的引入**

@@ -1,8 +1,8 @@
 ---
 title: linux挂载windows共享文件夹
-date: 2021-09-10 10:20:00
+date: 2021-09-10 20:20:00
 tags: centos
-categories: linux
+categories: 操作系统
 
 ---
   创建文件夹

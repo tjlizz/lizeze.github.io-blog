@@ -1,10 +1,11 @@
 ---
 title: 发布jar包到maven中央仓库（2021最新）
-date: 2021-09-10 11:11:00
+date: 2021-09-10 21:11:00
 tags: 
      - java
      - maven
      - gpg
+categories: 工具
 ---
 # 配置环境
   ## 安装`java`环境
