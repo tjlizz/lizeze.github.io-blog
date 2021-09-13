@@ -241,7 +241,7 @@ read_more_btn: true
 # Post meta display settings
 post_meta:
   item_text: true
-  created_at: true
+  created_at: false
   updated_at:
     enable: false
     another_day: true
@@ -267,7 +267,7 @@ reward_settings:
 
 reward:
   #wechatpay: /images/wechatpay.png
-  #alipay: /images/alipay.png
+  # alipay: /images/beian.png
   #paypal: /images/paypal.png
   #bitcoin: /images/bitcoin.png
 
@@ -276,7 +276,7 @@ reward:
 follow_me:
   #Twitter: https://twitter.com/username || fab fa-twitter
   #Telegram: https://t.me/channel_name || fab fa-telegram
-  #WeChat: /images/wechat_channel.jpg || fab fa-weixin
+ # WeChat: /images/beian.png || fab fa-weixin
   #RSS: /atom.xml || fa fa-rss
 
 # Related popular posts
