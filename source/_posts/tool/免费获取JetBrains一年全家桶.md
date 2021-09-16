@@ -1,8 +1,9 @@
 ---
 title: 免费获取JetBrains一年全家桶
-date: 2021-09-10 21:09:23
-tags:  JetBrains
+tags: JetBrains
 categories: 工具
+abbrlink: 4c17429a
+date: 2021-09-10 21:09:23
 ---
  
 登录[Github Education](https://education.github.com/)

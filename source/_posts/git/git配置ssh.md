@@ -1,10 +1,11 @@
 ---
 title: git配置ssh
-date: 2021-09-10 21:02:39
 tags:
-     - git
-     - ssh
+  - git
+  - ssh
 categories: 工具
+abbrlink: c8c56574
+date: 2021-09-10 21:02:39
 ---
 
 ## 在github上新增ssh

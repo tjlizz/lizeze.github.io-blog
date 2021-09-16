@@ -1,8 +1,9 @@
 ---
 title: 使用js下载文件
-date: 2021-09-12 12:46:20
-tags:  js
+tags: js
 categories: JavaScript
+abbrlink: 39437d16
+date: 2021-09-12 12:46:20
 ---
 
 ```javascript

@@ -1,8 +1,9 @@
 ---
 title: java设置使用代理
-date: 2021-09-12 12:56:06
 tags: java
 categories: Java
+abbrlink: dc9ca875
+date: 2021-09-12 12:56:06
 ---
 
 ```java

@@ -1,7 +1,8 @@
 ---
 title: jenkins启动jar
-date: 2021-09-12 12:59:53
 tags: jenkins
+abbrlink: 8c429c4
+date: 2021-09-12 12:59:53
 ---
 
 ```bash

@@ -1,8 +1,9 @@
 ---
 title: git仓库同时上传到github和gitee
-date: 2021-09-12 12:30:43
 tags: git
 categories: 工具
+abbrlink: f51db730
+date: 2021-09-12 12:30:43
 ---
 
 下载仓库到本地

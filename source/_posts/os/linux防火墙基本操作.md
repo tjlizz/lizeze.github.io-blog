@@ -1,8 +1,9 @@
 ---
 title: linux防火墙基本操作
-date: 2021-09-12 12:33:55
 tags: linux
 categories: 操作系统
+abbrlink: 307bc4b4
+date: 2021-09-12 12:33:55
 ---
 
 # 启动防火墙

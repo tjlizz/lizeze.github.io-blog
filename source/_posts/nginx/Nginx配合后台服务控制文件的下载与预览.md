@@ -1,10 +1,11 @@
 ---
 title: Nginx配合后台服务控制文件的下载与预览
-date: 2021-09-10 21:35:10
 tags:
-     - nginx
-     -  java
+  - nginx
+  - java
 categories: Java
+abbrlink: 71eca8f7
+date: 2021-09-10 21:35:10
 ---
 
 # 背景

@@ -1,11 +1,11 @@
 ---
 title: api自动增加前缀
-date: 2021-09-10 21:45:52
 tags:
-      - java
-      - springboot
+  - java
+  - springboot
 categories: Java
-      
+abbrlink: 2494396d
+date: 2021-09-10 21:45:52
 ---
 * AutoPrefixUrlMapping.java
 ```java

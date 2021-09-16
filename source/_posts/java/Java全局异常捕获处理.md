@@ -1,10 +1,11 @@
 ---
 title: Java全局异常捕获处理
-date: 2021-09-10 20:37:39
-tags: 
-      - java
-      - 异常
+tags:
+  - java
+  - 异常
 categories: Java
+abbrlink: 1d5bf6e8
+date: 2021-09-10 20:37:39
 ---
 
 

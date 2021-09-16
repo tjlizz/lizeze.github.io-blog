@@ -1,9 +1,9 @@
 ---
 title: Ubuntu用户管理
-date: 2021-09-10 20:04:44
 tags: ubuntu
 categories: 操作系统
-
+abbrlink: c5a6ae78
+date: 2021-09-10 20:04:44
 ---
 
 ## 新增用户

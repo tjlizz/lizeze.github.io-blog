@@ -1,8 +1,9 @@
 ---
 title: 分享几个css生成工具
-date: 2021-09-10 21:36:22
 tags: css
 categories: 工具
+abbrlink: dba10516
+date: 2021-09-10 21:36:22
 ---
 * [Neumorphism/Soft UI generator](https://neumorphism.io/#e0e0e0)
 

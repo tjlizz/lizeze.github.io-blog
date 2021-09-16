@@ -1,10 +1,10 @@
 ---
 title: Springboot使用@value注入静态属性
-date: 2021-09-10 20:44:39
-tags: 
-     - springboot
+tags:
+  - springboot
 categories: Java
-     
+abbrlink: daa7cd7
+date: 2021-09-10 20:44:39
 ---
 # Springboot @value 注解注入静态属性
 
