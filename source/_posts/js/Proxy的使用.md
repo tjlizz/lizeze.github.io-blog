@@ -108,4 +108,26 @@ console.log(user.age); //18
 
 在实际项目中，我们会经常进行修改某个对象的属性，有时候在一些特殊的场景下需要对对象修改的新属性进行判断，看是否符合当前的业务场景。
 
-我在银行存了10块钱，每次去取1块钱，当我第十一次去的时候，银行这个时候肯定不会再给我钱了，下面可以使用`Proxy`了模拟一下取钱的操作。
+前段时间看到一个新闻上说目前最高寿命的人活了140岁，我们就设定人的最大年龄为140岁
+ ```javascript
+let user = new Proxy(
+  {
+    age: 18
+  },
+  {
+    set: function (target, key, value) {
+      if (value > 140) {
+        throw "你要成仙了!";
+      }
+      target[key]=value
+    }
+  }
+);
+user.age = 20;
+console.log(user.age)//20
+user.age=200
+//Uncaught 你要成仙了! 
+ ```
+ [运行代码](https://codepen.io/lizeze/pen/oNwEazw?editors=1011)
+
+ 当我们修改一个人的年龄大于140,就会触发异常
