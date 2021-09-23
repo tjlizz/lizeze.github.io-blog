@@ -108,8 +108,7 @@ console.log(user.age); //18
 
 在实际项目中，我们会经常进行修改某个对象的属性，有时候在一些特殊的场景下需要对对象修改的新属性进行判断，看是否符合当前的业务场景。
 
-前段时间看到一个新闻上说目前最高寿命的人活了140岁，我们就设定人的最大年龄为140岁
- ```javascript
+  ```javascript
 let user = new Proxy(
   {
     age: 18
@@ -131,3 +130,58 @@ user.age=200
  [运行代码](https://codepen.io/lizeze/pen/oNwEazw?editors=1011)
 
  当我们修改一个人的年龄大于140,就会触发异常
+
+ ## construct
+ >`construct`方法用于拦截`new`操作符,为了使`new`操作符在生成的`Proxy`对象上生效,用于初始化代理的目标对象自身必须具有`Construct`内部方法
+
+### 示例
+ ```javascript
+let proxy = new Proxy(1, {
+  construct(target, args) {
+    console.log(target);
+    return new target(...args);
+  }
+});
+
+//Uncaught TypeError: Cannot create proxy with a non-object as target or handler 
+ ```
+ [运行代码](https://codepen.io/lizeze/pen/WNOKKBV?editors=1112)
+
+ ```javascript
+
+ let proxy = new Proxy(function () {}, {
+  construct(target, args) {
+    console.log(args);
+    return 1;
+  }
+});
+
+let obj = new proxy();
+//Uncaught TypeError: 'construct' on proxy: trap returned non-object ('1') 
+ ```
+ [运行代码](https://codepen.io/lizeze/pen/QWgBVWW?editors=1011)
+
+ 上面是两个错误的示例，下面写一个正确的写法
+ 
+ 
+ ```javascript
+var p = new Proxy(function() {}, {
+  construct: function(target, argumentsList, newTarget) {
+    console.log('called: ' + argumentsList.join(', '));
+    return { value: argumentsList[0] * 10 };
+  }
+});
+console.log(new p(1).value); // "called: 1"
+                             // 10
+ ```
+
+ [运行代码](https://codepen.io/lizeze/pen/dyRjqPe?editors=1111)
+
+通过以上代码得出结论
+
+* 要代理的对象必须具有`Construct`方法
+* 必须返回一个对象
+
+# 其他
+
+其他方法下一章继续
