@@ -9,24 +9,24 @@ Proxy 意思为`代理`，即在访问对象之前建立一道`拦截`，任何�
 
 # `Proxy`可以拦截什么
 
-- `getPrototypeOf()`
+* `getPrototypeOf()`
 
-- `setPrototypeOf()`
+* `setPrototypeOf()`
 
-- `isExtensible()`
+* `isExtensible()`
 
-- `preventExtensions()`
+* `preventExtensions()`
 
-- `getOwnPropertyDescriptor()`
+* `getOwnPropertyDescriptor()`
 
-- `defineProperty()`
-- `has()`
-- `get()`
-- `set()`
-- `deleteProperty()`
-- `ownKeys()`
-- `apply()`
-- `construct()`
+* `defineProperty()`
+* `has()`
+* `get()`
+* `set()`
+* `deleteProperty()`
+* `ownKeys()`
+* `apply()`
+* `construct()`
 
 # 实例
 
