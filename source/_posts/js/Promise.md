@@ -136,3 +136,46 @@ ajaxGet("api").then(
 ```
 
 [运行代码](https://codepen.io/lizeze/pen/eYRQYpL?editors=1111)
+
+# finally 方法
+
+`finally`方法是不管`Promise`对象最后状态如何，都会执行的操作。和`try catch`中的`finally`方法是一样的
+
+下面是一个例子，最后使用`finally`方法输出一段内容
+
+
+
+```javascript
+ 
+ajaxGet("api").then(
+  (data) => {
+    console.log(data);
+  },
+  (error) => {
+    console.error(error);
+  }
+).finally(()=>{
+  console.log('不管成不成功，我都会输出')
+});
+
+ajaxGet("api11").then(
+  (data) => {
+    console.log(data);
+  },
+  (error) => {
+    console.error(error);
+  }
+).finally(()=>{
+  
+  console.log('不管成不成功，我都会输出')
+});
+
+//"api11请求失败"
+//"不管成不成功，我都会输出"
+//"api请求完成"
+//"不管成不成功，我都会输出"
+```
+
+ [运行代码](https://codepen.io/lizeze/pen/BaZGxVG?editors=1111)
+
+ `finally`的回调函数是没有参数的，无法得知`Promise`对象的结果是什么,这也表明不管最后的返回结果是什么，它都会执行
