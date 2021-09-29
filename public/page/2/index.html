@@ -190,6 +190,468 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://blog.xx996.top/article/dc9ca875.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="xx小台灯">
+      <meta itemprop="description" content="blog xx996">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="xx996">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/article/dc9ca875.html" class="post-title-link" itemprop="url">java设置使用代理</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Java/" itemprop="url" rel="index"><span itemprop="name">Java</span></a>
+                </span>
+            </span>
+
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">评论数：</span>
+    
+    <a title="valine" href="/article/dc9ca875.html#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/article/dc9ca875.html" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">System.setProperty(<span class="string">&quot;proxySet&quot;</span>, <span class="string">&quot;true&quot;</span>);</span><br><span class="line">System.setProperty(<span class="string">&quot;socksProxyHost&quot;</span>, <span class="string">&quot;10.194.69.85&quot;</span>);</span><br><span class="line">System.setProperty(<span class="string">&quot;socksProxyPort&quot;</span>, <span class="string">&quot;10086&quot;</span>);</span><br></pre></td></tr></table></figure>
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://blog.xx996.top/article/b9f29ac6.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="xx小台灯">
+      <meta itemprop="description" content="blog xx996">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="xx996">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/article/b9f29ac6.html" class="post-title-link" itemprop="url">linux设置开机启动</a>
+        </h2>
+
+        <div class="post-meta">
+
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">评论数：</span>
+    
+    <a title="valine" href="/article/b9f29ac6.html#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/article/b9f29ac6.html" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="创建一个脚本"><a href="#创建一个脚本" class="headerlink" title="创建一个脚本"></a>创建一个脚本</h1><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> vim auto_run_script.sh</span></span><br><span class="line"><span class="meta"></span></span><br><span class="line"><span class="meta">#</span><span class="bash">!/bin/bash</span></span><br><span class="line">date &gt;&gt; /tmp/output.txt</span><br><span class="line">hostname &gt;&gt; /tmp/output.txt</span><br></pre></td></tr></table></figure>
+<h1 id="保存退出后，再给它赋予可执行权限"><a href="#保存退出后，再给它赋予可执行权限" class="headerlink" title="保存退出后，再给它赋予可执行权限"></a>保存退出后，再给它赋予可执行权限</h1><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> chmod 777  auto_run_script.sh</span></span><br></pre></td></tr></table></figure>
+
+<h1 id="创建启动服务"><a href="#创建启动服务" class="headerlink" title="创建启动服务"></a>创建启动服务</h1> <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> <span class="built_in">cd</span> /etc/systemd/system</span></span><br><span class="line"><span class="meta"></span></span><br><span class="line"><span class="meta">$</span><span class="bash"> vim auto_run_script.service</span></span><br><span class="line"></span><br><span class="line">[Unit]</span><br><span class="line">Description=Run a Custom Script at Startup</span><br><span class="line">After=default.target</span><br><span class="line"></span><br><span class="line">[Service]</span><br><span class="line">ExecStart=/auto_run_script.sh</span><br><span class="line"></span><br><span class="line">[Install]</span><br><span class="line">WantedBy=default.target</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>保存退出</p>
+<h1 id="启动服务"><a href="#启动服务" class="headerlink" title="启动服务"></a>启动服务</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ systemctl daemon-reload</span><br><span class="line">$ systemctl enable auto_run_script.service</span><br></pre></td></tr></table></figure>
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://blog.xx996.top/article/51442d59.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="xx小台灯">
+      <meta itemprop="description" content="blog xx996">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="xx996">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/article/51442d59.html" class="post-title-link" itemprop="url">docker启动mysql容器之后报错</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/docker/" itemprop="url" rel="index"><span itemprop="name">docker</span></a>
+                </span>
+            </span>
+
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">评论数：</span>
+    
+    <a title="valine" href="/article/51442d59.html#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/article/51442d59.html" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">ALTER USER &#x27;root&#x27;@&#x27;%&#x27; IDENTIFIED WITH mysql_native_password BY &#x27;123456&#x27;;</span><br><span class="line">CREATE USER &#x27;root&#x27;@&#x27;%&#x27; IDENTIFIED BY &#x27;你的密码&#x27;;</span><br><span class="line">grant all privileges on *.* to &#x27;root&#x27;@&#x27;%&#x27;; </span><br><span class="line">ALTER USER &#x27;root&#x27;@&#x27;%&#x27; IDENTIFIED WITH mysql_native_password BY &#x27;123456&#x27;;</span><br><span class="line">flush privileges;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">CREATE USER &#x27;lzz&#x27;@&#x27;%&#x27; IDENTIFIED BY &#x27;123456&#x27;;</span><br><span class="line"></span><br><span class="line">grant all privileges on *.* to &#x27;lzz&#x27;@&#x27;%&#x27; with grant option;</span><br><span class="line"></span><br><span class="line">set global time_zone = &#x27;+8:00&#x27;;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>  mysql数据库时间少一天</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">characterEncoding=utf8&amp;useSSL=false&amp;serverTimezone=Asia/Shanghai</span><br></pre></td></tr></table></figure>
+
+<p>把<code>serverTimezone</code>值修改为<code>Asia/Shanghai</code></p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://blog.xx996.top/article/3a48177d.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="xx小台灯">
+      <meta itemprop="description" content="blog xx996">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="xx996">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/article/3a48177d.html" class="post-title-link" itemprop="url">跨域解决方案</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Nginx/" itemprop="url" rel="index"><span itemprop="name">Nginx</span></a>
+                </span>
+            </span>
+
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">评论数：</span>
+    
+    <a title="valine" href="/article/3a48177d.html#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/article/3a48177d.html" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="跨域"><a href="#跨域" class="headerlink" title="跨域"></a>跨域</h1><h2 id="什么是跨域"><a href="#什么是跨域" class="headerlink" title="什么是跨域"></a>什么是跨域</h2><p><code>协议</code> + <code>域名</code> + <code>端口</code> 有一处不相同时，就认为是跨域</p>
+<h2 id="为什么会有跨域"><a href="#为什么会有跨域" class="headerlink" title="为什么会有跨域"></a>为什么会有跨域</h2><p>同源策略是一种约定，它是浏览器最核心也最基本的安全功能，如果缺少了同源策略，浏览器很容易受到攻击。</p>
+<h1 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h1><h2 id="使用Nginx做反向代理"><a href="#使用Nginx做反向代理" class="headerlink" title="使用Nginx做反向代理"></a>使用Nginx做反向代理</h2><ul>
+<li><p>情景1 </p>
+<p>假设网站部署在80接口，在80接口下设置反向代理，可直接解决跨域问题</p>
+</li>
+</ul>
+<figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">location</span><span class="regexp"> ^~/v1</span>&#123;</span><br><span class="line">    <span class="attribute">rewrite</span><span class="regexp"> ^/v1/(.*)$</span> /<span class="variable">$1</span> <span class="literal">break</span>;</span><br><span class="line">    <span class="attribute">proxy_pass</span>  http://localhost:8080;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><p>情景2</p>
+<p> 假设网站部署在8081端口，api端口为8080，反向代理服务端口为80</p>
+</li>
+</ul>
+<figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">location</span><span class="regexp"> ^~/v1</span>&#123;</span><br><span class="line">      <span class="attribute">rewrite</span><span class="regexp"> ^/v1/(.*)$</span> /<span class="variable">$1</span> <span class="literal">break</span>;</span><br><span class="line">      <span class="attribute">proxy_pass</span>  http://localhost:8080;</span><br><span class="line">      <span class="attribute">add_header</span> Access-Control-Allow-Methods *;</span><br><span class="line">      <span class="attribute">add_header</span> Access-Control-Max-Age <span class="number">3600</span>;</span><br><span class="line">      <span class="attribute">add_header</span> Access-Control-Allow-Credentials <span class="literal">true</span>;</span><br><span class="line">      <span class="attribute">add_header</span> Access-Control-Allow-Origin $http_origin;</span><br><span class="line">      <span class="attribute">add_header</span> Access-Control-Allow-Headers </span><br><span class="line">      $http_access_control_request_headers;</span><br><span class="line">      <span class="attribute">if</span> ($request_method = OPTIONS)&#123;</span><br><span class="line">          <span class="attribute">return</span> <span class="number">200</span>;</span><br><span class="line">      &#125;       </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://blog.xx996.top/article/39437d16.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="xx小台灯">
+      <meta itemprop="description" content="blog xx996">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="xx996">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/article/39437d16.html" class="post-title-link" itemprop="url">使用js下载文件</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/JavaScript/" itemprop="url" rel="index"><span itemprop="name">JavaScript</span></a>
+                </span>
+            </span>
+
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">评论数：</span>
+    
+    <a title="valine" href="/article/39437d16.html#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/article/39437d16.html" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> url = <span class="string">&#x27;download/?filename=aaa.txt&#x27;</span>;</span><br><span class="line">   <span class="keyword">var</span> xhr = <span class="keyword">new</span> XMLHttpRequest();</span><br><span class="line">   xhr.open(<span class="string">&#x27;GET&#x27;</span>, url, <span class="literal">true</span>);      </span><br><span class="line">   xhr.responseType = <span class="string">&quot;blob&quot;</span>;    </span><br><span class="line">   xhr.onload = <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">       <span class="keyword">if</span> (<span class="built_in">this</span>.status === <span class="number">200</span>) &#123;</span><br><span class="line">           <span class="keyword">var</span> blob = <span class="built_in">this</span>.response;</span><br><span class="line">           <span class="keyword">var</span> reader = <span class="keyword">new</span> FileReader();</span><br><span class="line">           reader.readAsDataURL(blob);     </span><br><span class="line">           reader.onload = <span class="function"><span class="keyword">function</span> (<span class="params">e</span>) </span>&#123;</span><br><span class="line">               <span class="keyword">var</span> a = <span class="built_in">document</span>.createElement(<span class="string">&#x27;a&#x27;</span>);</span><br><span class="line">               a.download = <span class="string">&#x27;name&#x27;</span>;</span><br><span class="line">               a.href = e.target.result;</span><br><span class="line">               $(<span class="string">&quot;body&quot;</span>).append(a);   </span><br><span class="line">               a.click();</span><br><span class="line">               $(a).remove();</span><br><span class="line">           &#125;</span><br><span class="line">       &#125;</span><br><span class="line">   &#125;;</span><br><span class="line">   xhr.send()</span><br></pre></td></tr></table></figure>
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://blog.xx996.top/article/307bc4b4.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="xx小台灯">
+      <meta itemprop="description" content="blog xx996">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="xx996">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/article/307bc4b4.html" class="post-title-link" itemprop="url">linux防火墙基本操作</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/" itemprop="url" rel="index"><span itemprop="name">操作系统</span></a>
+                </span>
+            </span>
+
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">评论数：</span>
+    
+    <a title="valine" href="/article/307bc4b4.html#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/article/307bc4b4.html" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="启动防火墙"><a href="#启动防火墙" class="headerlink" title="启动防火墙"></a>启动防火墙</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl start firewalld</span><br></pre></td></tr></table></figure>
+<h1 id="禁用防火墙"><a href="#禁用防火墙" class="headerlink" title="禁用防火墙"></a>禁用防火墙</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl stop firewalld</span><br></pre></td></tr></table></figure>
+<h1 id="设置开机启动"><a href="#设置开机启动" class="headerlink" title="设置开机启动"></a>设置开机启动</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl enable firewalld</span><br></pre></td></tr></table></figure>
+<h1 id="停止并禁用开机启动"><a href="#停止并禁用开机启动" class="headerlink" title="停止并禁用开机启动"></a>停止并禁用开机启动</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sytemctl disable firewalld</span><br></pre></td></tr></table></figure>
+<h1 id="重启防火墙"><a href="#重启防火墙" class="headerlink" title="重启防火墙"></a>重启防火墙</h1> <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">firewall-cmd --reload</span><br></pre></td></tr></table></figure>
+<h1 id="查看状态"><a href="#查看状态" class="headerlink" title="查看状态"></a>查看状态</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl status firewalld或者 firewall-cmd --state</span><br></pre></td></tr></table></figure>
+<h1 id="查看版本"><a href="#查看版本" class="headerlink" title="查看版本"></a>查看版本</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">firewall-cmd --version</span><br></pre></td></tr></table></figure>
+
+<h1 id="查看开放的端口"><a href="#查看开放的端口" class="headerlink" title="查看开放的端口"></a>查看开放的端口</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">firewall-cmd --list-port</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h1 id="开放端口"><a href="#开放端口" class="headerlink" title="开放端口"></a>开放端口</h1><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">firewall-cmd --zone=public --add-port=80/tcp --permanent</span><br><span class="line"><span class="meta">#</span><span class="bash">不加 --permanent重启之后就会失效，加了是永久生效</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> 增加规则之后要重启防火墙</span></span><br><span class="line">firewall-cmd --reload</span><br></pre></td></tr></table></figure>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="https://blog.xx996.top/article/f51db730.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -561,634 +1023,10 @@
   
   
 
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://blog.xx996.top/article/61f06ba6.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="xx小台灯">
-      <meta itemprop="description" content="blog xx996">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="xx996">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/article/61f06ba6.html" class="post-title-link" itemprop="url">使用typescript与webpack搭建开发环境(四)</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/TypeScript/" itemprop="url" rel="index"><span itemprop="name">TypeScript</span></a>
-                </span>
-            </span>
-
-          
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="far fa-comment"></i>
-      </span>
-      <span class="post-meta-item-text">评论数：</span>
-    
-    <a title="valine" href="/article/61f06ba6.html#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/article/61f06ba6.html" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p><strong>如何区分开发环境与生成环境</strong></p>
- <a href="/article/9bb384a9.html" title="上一章">上一章</a>讲了开发环境`devtool`的使用，但是官方推荐不同的环境使用不同的配置，那么怎么来区分当前运行的是什么环境呢，这次讲一下这个。
-
-<h1 id="安装依赖"><a href="#安装依赖" class="headerlink" title="安装依赖"></a>安装依赖</h1><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> yarn add -D webpack-merge</span></span><br></pre></td></tr></table></figure>
-<h1 id="调整目录结构"><a href="#调整目录结构" class="headerlink" title="调整目录结构"></a>调整目录结构</h1><p>增加<code>config</code>文件夹，将<code>webpack.config.js</code>文件移动到里面，保留基础配置，删除<code>mode</code>和<code>devtool</code>属性</p>
-<p>在<code>config</code>文件夹中增加<code>webpack.conf.dev.js</code>，写入以下内容</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> merge = <span class="built_in">require</span>(<span class="string">&#x27;webpack-merge&#x27;</span>);</span><br><span class="line"><span class="keyword">const</span> common = <span class="built_in">require</span>(<span class="string">&#x27;./webpack.config.js&#x27;</span>);</span><br><span class="line"><span class="keyword">let</span> devConfig = &#123;</span><br><span class="line">    <span class="attr">mode</span>: <span class="string">&quot;development&quot;</span>,</span><br><span class="line">    <span class="attr">devtool</span>: <span class="string">&#x27;source-map&#x27;</span>,</span><br><span class="line">&#125;;</span><br><span class="line"><span class="built_in">module</span>.exports = merge.merge(common, devConfig);</span><br></pre></td></tr></table></figure>
-
-<p>修改<code>package.json</code></p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&quot;scripts&quot;</span>: &#123;</span><br><span class="line">   <span class="string">&quot;start&quot;</span>: <span class="string">&quot;webpack serve --config config/webpack.conf.dev.js&quot;</span></span><br><span class="line"> &#125;,</span><br></pre></td></tr></table></figure>
-
-<p>执行 <code>yarn start</code></p>
-<h1 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h1><p>不同的环境创建不同的<code>webpack.conf.xxx.js</code>即可</p>
-<p>注意修改<code>webconfig.conf.js</code>中的文件引用路径，因为它的位置改变了</p>
-<p><a target="_blank" rel="noopener" href="https://github.com/lizeze/webpack-ts-demo/commit/feec9a282047efee507212df04c1a7706ecddcbf">获取代码</a></p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://blog.xx996.top/article/e540a482.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="xx小台灯">
-      <meta itemprop="description" content="blog xx996">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="xx996">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/article/e540a482.html" class="post-title-link" itemprop="url">使用typescript与webpack搭建开发环境(二)</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/TypeScript/" itemprop="url" rel="index"><span itemprop="name">TypeScript</span></a>
-                </span>
-            </span>
-
-          
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="far fa-comment"></i>
-      </span>
-      <span class="post-meta-item-text">评论数：</span>
-    
-    <a title="valine" href="/article/e540a482.html#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/article/e540a482.html" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p><strong>静态资源的引入</strong></p>
-<a href="/article/4a713fe0.html" title="上一章">上一章</a>中已经搭建好开发环境，下面开始逐渐丰富项目的内容，本章是静态资源的引入。
-
-<h1 id="安装依赖"><a href="#安装依赖" class="headerlink" title="安装依赖"></a>安装依赖</h1><p><code>webpack</code>默认是只认识<code>JavaScript</code>的，只知道该怎么处理它，如果项目中出现了其他类型的文件，并且也希望<code>webpack</code>对它进行打包的时候，就要安装对应的<code>loader</code>了。</p>
-<p> <code>loader</code>是什么，下面内容源自<code>webpack</code><a target="_blank" rel="noopener" href="https://www.webpackjs.com/concepts/loaders/">中文网站</a></p>
-<blockquote>
-<p>loader 用于对模块的源代码进行转换。loader 可以使你在 import 或”加载”模块时预处理文件。因此，loader 类似于其他构建工具中“任务(task)”，并提供了处理前端构建步骤的强大方法。loader 可以将文件从不同的语言（如 TypeScript）转换为 JavaScript，或将内联图像转换为 data URL。loader 甚至允许你直接在 JavaScript 模块中 import CSS文件！</p>
-</blockquote>
-<h1 id="css-loader"><a href="#css-loader" class="headerlink" title="css-loader"></a>css-loader</h1> <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> yarn add css-loader style-loader -D</span></span><br></pre></td></tr></table></figure>
-<p> 在<code>src</code>文件夹中创建第一个<code>css</code>文件，命名为<code>index.css</code></p>
- <figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"> <span class="selector-class">.hello</span>&#123;</span><br><span class="line">    <span class="attribute">color</span>:red;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p> 修改<code>index.ts</code>文件<br> <img src="https://img-blog.csdnimg.cn/img_convert/27d15fd81d28dc2b3526209eb0a4eee0.png"></p>
-<p>修改<code>webpack.config.js</code></p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">module</span>: &#123;</span><br><span class="line">       <span class="attr">rules</span>: [</span><br><span class="line">         +  &#123;</span><br><span class="line">         +    test: <span class="regexp">/\.css$/</span>,</span><br><span class="line">         +    use: [<span class="string">&#x27;style-loader&#x27;</span>, <span class="string">&#x27;css-loader&#x27;</span>]</span><br><span class="line">         + &#125;</span><br><span class="line">       ],</span><br><span class="line">   &#125;</span><br></pre></td></tr></table></figure>
-<h1 id="file-loader"><a href="#file-loader" class="headerlink" title="file-loader"></a>file-loader</h1><p>  <code>file-loader</code>用于引入图片文件</p>
-  <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> yarn add file-loader -D</span></span><br></pre></td></tr></table></figure>
-<p>  修改<code>index.ts</code>文件，并在src文件夹内增加一张<code>png</code>图片</p>
-  <figure class="highlight typescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> img <span class="keyword">from</span>  <span class="string">&quot;./index.png&quot;</span></span><br><span class="line"><span class="keyword">let</span> image: HTMLImageElement = <span class="built_in">document</span>.createElement(<span class="string">&quot;img&quot;</span>);</span><br><span class="line">image.src = img;</span><br><span class="line"><span class="built_in">document</span>.body.append(image);</span><br></pre></td></tr></table></figure>
-<p>  修改<code>webpack.config.js</code><br>  <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">module</span>: &#123;</span><br><span class="line">     <span class="attr">rules</span>: [</span><br><span class="line">         +&#123;</span><br><span class="line">         +   test: <span class="regexp">/\.(png|jpe?g|gif)$/i</span>,</span><br><span class="line">         +  use:[<span class="string">&#x27;file-loader&#x27;</span>],</span><br><span class="line">         +&#125;,</span><br><span class="line">     ],</span><br><span class="line"> &#125;,</span><br></pre></td></tr></table></figure></p>
-<h1 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h1><p>关于<code>css</code>和<code>image</code>的配置就是这些了，现在运行启动命令就可以看到网页上的字已经是红色了，并且添加了一张图片</p>
-<p><a target="_blank" rel="noopener" href="https://webpack.js.org/concepts/loaders/">更多loader</a></p>
-<p><a target="_blank" rel="noopener" href="https://github.com/lizeze/webpack-ts-demo">获取代码</a></p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://blog.xx996.top/article/4a713fe0.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="xx小台灯">
-      <meta itemprop="description" content="blog xx996">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="xx996">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/article/4a713fe0.html" class="post-title-link" itemprop="url">使用typescript与webpack搭建开发环境(一)</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/TypeScript/" itemprop="url" rel="index"><span itemprop="name">TypeScript</span></a>
-                </span>
-            </span>
-
-          
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="far fa-comment"></i>
-      </span>
-      <span class="post-meta-item-text">评论数：</span>
-    
-    <a title="valine" href="/article/4a713fe0.html#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/article/4a713fe0.html" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>使用typescript与webpack搭建开发环境</p>
-<h1 id="项目初始化"><a href="#项目初始化" class="headerlink" title="项目初始化"></a>项目初始化</h1><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> yarn init -y</span></span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>本文全部使用yarn命令，没有安装的可以执行下面使用npm安装</p>
-</blockquote>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> npm i -g yarn</span></span><br></pre></td></tr></table></figure>
-
-<h1 id="安装依赖"><a href="#安装依赖" class="headerlink" title="安装依赖"></a>安装依赖</h1><p> <img src="https://img-blog.csdnimg.cn/20210307115029359.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpNTY3Mg==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<p>将上面内容拷贝到项目中的<code>package.json</code>文件中，执行安装命令</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> yarn install</span> </span><br></pre></td></tr></table></figure>
-
-<h1 id="项目配置"><a href="#项目配置" class="headerlink" title="项目配置"></a>项目配置</h1><h2 id="初始化tsconfig-json"><a href="#初始化tsconfig-json" class="headerlink" title="初始化tsconfig.json"></a>初始化tsconfig.json</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> tsc --init</span></span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>如果出现tsc不是正常的命令错误提示 可在命令前面添加<code>npx</code> 然后在执行<br>执行成功之后修改tsconfig,写入以下内容</p>
-</blockquote>
-<p><img src="https://img-blog.csdnimg.cn/20210307115618672.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpNTY3Mg==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<blockquote>
-<p>更多配置选项可参考<a target="_blank" rel="noopener" href="https://www.typescriptlang.org/tsconfig">官方文档</a></p>
-</blockquote>
-<h2 id="webpack-config-js"><a href="#webpack-config-js" class="headerlink" title="webpack.config.js"></a>webpack.config.js</h2><p>在项目根目录下增加<code>webpack.config.js</code>,内容如下</p>
-<p><img src="https://img-blog.csdnimg.cn/20210307115108907.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpNTY3Mg==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<blockquote>
-<p>更多配置选项可参考<a target="_blank" rel="noopener" href="https://webpack.js.org/guides/">官方文档</a><br>到这里项目的配置项基本已经全部完成了，下面开始写代码</p>
-</blockquote>
-<h1 id="增加第一个ts文件"><a href="#增加第一个ts文件" class="headerlink" title="增加第一个ts文件"></a>增加第一个ts文件</h1><p>在项目目录增加<code>src</code>文件夹，并创建第一个文件<code>index.ts</code>,内容如下<br><img src="https://img-blog.csdnimg.cn/20210307115200520.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpNTY3Mg==,size_16,color_FFFFFF,t_70"></p>
-<p>完成之后运行一下项目，验证一下</p>
-<h1 id="项目启动"><a href="#项目启动" class="headerlink" title="项目启动"></a>项目启动</h1><p>项目启动有两种方式，一种是直接在终端中输入<code>webpack serve</code>来启动或者使用<code>yarn</code>命令启动，我们使用第二种方式。<br>首先配置<code>yarn</code>的启动脚本</p>
-<p>在<code>package.json</code>中增加以下代码</p>
-<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&quot;scripts&quot;</span>: &#123;</span><br><span class="line">  <span class="attr">&quot;start&quot;</span>: <span class="string">&quot;webpack serve&quot;</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>下面我们就可以在终端中直接输入<code>yarn start</code>来启动项目了，执行之后会看到以下提示<br><img src="https://img-blog.csdnimg.cn/20210307115211886.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpNTY3Mg==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<p>项目顺利启动，并在本地启动了一个端口为<code>8080</code>的服务,我们可以直接在浏览器中那个访问</p>
-<p><code>http://localhost:8080/</code></p>
-<p><img src="https://img-blog.csdnimg.cn/20210307115228200.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpNTY3Mg==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br> 获取源码点击<a target="_blank" rel="noopener" href="https://github.com/lizeze/webpack-ts-demo">这里</a></p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://blog.xx996.top/article/e44222ec.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="xx小台灯">
-      <meta itemprop="description" content="blog xx996">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="xx996">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/article/e44222ec.html" class="post-title-link" itemprop="url">使用第三方授权登录自己的网站</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E5%B7%A5%E5%85%B7/" itemprop="url" rel="index"><span itemprop="name">工具</span></a>
-                </span>
-            </span>
-
-          
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="far fa-comment"></i>
-      </span>
-      <span class="post-meta-item-text">评论数：</span>
-    
-    <a title="valine" href="/article/e44222ec.html#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/article/e44222ec.html" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p><img src="https://img-blog.csdnimg.cn/4739bc34bb234f67bb546870ebcdf6be.png" alt="在这里插入图片描述"></p>
-<h1 id="Github"><a href="#Github" class="headerlink" title="Github"></a>Github</h1><h2 id="注册应用"><a href="#注册应用" class="headerlink" title="注册应用"></a>注册应用</h2><p>如果想要使用<code>Github</code>为应用授权的话，要先去自己的账户上注册一个应用，<a target="_blank" rel="noopener" href="https://github.com/settings/developers">点击</a>注册。</p>
-<p><img src="https://img-blog.csdnimg.cn/37197da007f540dfb6a3bf153261ec8e.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_Q1NETiBAeHjlsI_lj7Dnga8=,size_49,color_FFFFFF,t_70,g_se,x_16" alt="[外链图片转存失败,源站可能有防盗链机制,建议将图片保存下来直接上传(img-xl0CN1FD-1629897178733)(https://imgblog.csdnimg.cn/99253549a82d43258425957b20d75b21.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_Q1NETiBAeHjlsI_lj7Dnga8=,size_54,color_FFFFFF,t_70,g_se,x_16)]"></p>
-<p>名称随便输入，写上自己网站的主页，最后一个是授权成功之后回调的页面。</p>
-<p>创建成功之后会看到这个 </p>
-<p><img src="https://img-blog.csdnimg.cn/b2daf14dc5bc4132a0f7d18e865a30f0.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_Q1NETiBAeHjlsI_lj7Dnga8=,size_60,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"></p>
-<h2 id="跳转到Github授权页面"><a href="#跳转到Github授权页面" class="headerlink" title="跳转到Github授权页面"></a>跳转到Github授权页面</h2><p> 点一下<code>Generate a new client secret</code>会生成一个秘钥，只会出现一次，要保存好它，不要泄露出去。后面会用到的。</p>
-<p>下面开始写代码了，只是做一个简单的示例，没有特别复杂的。就是文档顶部的四种类型。图片是在<a target="_blank" rel="noopener" href="https://www.iconfont.cn/">iconfont</a>找到，这个不做过多描述了。</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">github</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">     location.href = <span class="string">`https://github.com/login/oauth/authorize?client_id=39b050937104c9618fee&amp;redirect_uri=http://localhost/me.html`</span>;</span><br><span class="line">   &#125;</span><br></pre></td></tr></table></figure>
-
-<p>当点击<code>Github</code>图标之后会调用这个方法，跳转到授权页面，上面那个用到两个参数</p>
-<ul>
-<li>client_id<br>就是上面应用的<code>client_id</code>，千万不要把<code>secret</code>放在前端，不能暴露出来的</li>
-<li>redirect_uri<br> 授权成功返回的页面，上面也提到过的。</li>
-</ul>
-<p> 调用方法之后会跳转到这个页面，输入账号密码登录就可以了。<br><img src="https://img-blog.csdnimg.cn/743fa3f0d04c4673ab0b3268fe77634d.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_Q1NETiBAeHjlsI_lj7Dnga8=,size_52,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"><br>密码验证成功之后会跳转到<code>http://localhost/me.html?code=ffwgregregregre</code>,记住这个<code>code</code>，后面会用到的。</p>
-<h2 id="获取到授权码"><a href="#获取到授权码" class="headerlink" title="获取到授权码"></a>获取到授权码</h2><p>在授权页面授权成功之后，会得到一个授权码，就是上面的<code>code</code>，拿到这个去后台服务获取用户信息。</p>
-<p> 要获取到用户信息首页要使用<code>授权码</code>得到一个令牌，使用这个令牌向<code>Github</code>请求用户信息。</p>
-<h2 id="后台实现"><a href="#后台实现" class="headerlink" title="后台实现"></a>后台实现</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line"> <span class="meta">@GetMapping(&quot;github/&#123;code&#125;&quot;)</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> ResponseEntity <span class="title">getUserInfo</span><span class="params">(<span class="meta">@PathVariable</span> String code)</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    String clientId = <span class="string">&quot;&quot;</span>;</span><br><span class="line">    String secret = <span class="string">&quot;&quot;</span>;</span><br><span class="line">    Proxy proxy = <span class="keyword">new</span> Proxy(Proxy.Type.SOCKS, <span class="keyword">new</span> InetSocketAddress(<span class="string">&quot;127.0.0.1&quot;</span>, <span class="number">1090</span>));</span><br><span class="line">    <span class="comment">//获取访问令牌</span></span><br><span class="line">    String body = HttpRequest.post(</span><br><span class="line">           String.format(<span class="string">&quot;https://github.com/login/oauth/access_token?client_id=%s&amp;client_secret=%s&amp;code=%s&quot;</span>, clientId, secret, code)</span><br><span class="line">    ).header(<span class="string">&quot;accept&quot;</span>, <span class="string">&quot;application/json&quot;</span>).</span><br><span class="line">            setProxy(proxy).</span><br><span class="line">            execute().</span><br><span class="line">            body();</span><br><span class="line"></span><br><span class="line">    GithubTokenResponse githubTokenResponse = JSON.parseObject(body, GithubTokenResponse.class);</span><br><span class="line"></span><br><span class="line">    <span class="comment">//使用令牌获取用户信息</span></span><br><span class="line">    String userInfo = HttpRequest.get(<span class="string">&quot;https://api.github.com/user&quot;</span>).</span><br><span class="line">            setProxy(proxy).</span><br><span class="line">            header(<span class="string">&quot;accept&quot;</span>, <span class="string">&quot;application/json&quot;</span>).</span><br><span class="line">            header(<span class="string">&quot;Authorization&quot;</span>, <span class="string">&quot;token &quot;</span> + githubTokenResponse.getAccess_token())</span><br><span class="line">            .execute().body();</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> ResponseEntity.ok(userInfo);</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p>GithubTokenResponse</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">GithubTokenResponse</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span>  String access_token;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span>  String scope;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span>  String token_type;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
-
-<h2 id="前端页面"><a href="#前端页面" class="headerlink" title="前端页面"></a>前端页面</h2> <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">img</span> <span class="attr">id</span>=<span class="string">&quot;avatar&quot;</span>  <span class="attr">style</span>=<span class="string">&quot;display: none&quot;</span> /&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">h1</span> <span class="attr">id</span>=<span class="string">&quot;name&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">let</span> code = getQueryVariable(<span class="string">&quot;code&quot;</span>);</span><br><span class="line">    ajaxGet(<span class="string">&quot;github/&quot;</span> + code, <span class="function"><span class="keyword">function</span> (<span class="params">data</span>) </span>&#123;</span><br><span class="line">      <span class="keyword">let</span> user = data;</span><br><span class="line">      avatar.style.display = <span class="string">&quot;block&quot;</span>;</span><br><span class="line">      avatar.src = user.avatar_url;</span><br><span class="line">      <span class="built_in">document</span>.getElementById(<span class="string">&quot;name&quot;</span>).innerHTML = user.name;</span><br><span class="line">    &#125;);</span><br></pre></td></tr></table></figure>
-
-<h1 id="Gitee"><a href="#Gitee" class="headerlink" title="Gitee"></a>Gitee</h1><p><code>Gitee</code>和<code>Github</code>基本是一样的，也是要先注册一个应用，地址在<a target="_blank" rel="noopener" href="https://gitee.com/oauth/applications/new">这里</a>，不过多描述了，直接上代码。</p>
-<h2 id="后端实现"><a href="#后端实现" class="headerlink" title="后端实现"></a>后端实现</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="meta">@GetMapping(&quot;gitee/&#123;code&#125;&quot;)</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> ResponseEntity <span class="title">getGiteeUser</span><span class="params">(<span class="meta">@PathVariable</span> String code)</span> </span>&#123;</span><br><span class="line">    String clientId = <span class="string">&quot;&quot;</span>;</span><br><span class="line">    String secret = <span class="string">&quot;&quot;</span>;</span><br><span class="line">    String redirect_uri =  <span class="string">&quot;http://localhost/gitee.html&quot;</span>;</span><br><span class="line">    String url = String.format(<span class="string">&quot; https://gitee.com/oauth/token?grant_type=authorization_code&amp;code=%s&amp;client_id=%s&amp;redirect_uri=%s&amp;client_secret=%s&quot;</span>, code, clientId, redirect_uri, secret);</span><br><span class="line">    String body = HttpRequest.post(url).execute().body();</span><br><span class="line">    GithubTokenResponse githubTokenResponse = JSON.parseObject(body, GithubTokenResponse.class);</span><br><span class="line">    String userInfo = HttpRequest.get(<span class="string">&quot;https://gitee.com/api/v5/user?access_token=&quot;</span> + githubTokenResponse.getAccess_token()).execute().body();</span><br><span class="line">    <span class="keyword">return</span> ResponseEntity.ok(userInfo);</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<h2 id="前端实现"><a href="#前端实现" class="headerlink" title="前端实现"></a>前端实现</h2><p> 与<code>Github</code>一致</p>
-<h1 id="Email"><a href="#Email" class="headerlink" title="Email"></a>Email</h1><p><code>Email</code>实现的思路大致就是，输入邮箱之后，后台会向邮箱发送一个链接，通过这个链接激活账户。</p>
-<h2 id="发送邮件"><a href="#发送邮件" class="headerlink" title="发送邮件"></a>发送邮件</h2><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">input</span> <span class="attr">id</span>=<span class="string">&quot;email&quot;</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">placeholder</span>=<span class="string">&quot;邮箱地址&quot;</span> /&gt;</span></span><br><span class="line"></span><br><span class="line">  <span class="tag">&lt;<span class="name">button</span> <span class="attr">onclick</span>=<span class="string">&quot;register()&quot;</span>&gt;</span>注册<span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">&lt;script&gt;</span><br><span class="line">   <span class="function"><span class="keyword">function</span> <span class="title">register</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">     <span class="keyword">let</span> value = email.value;</span><br><span class="line">     <span class="keyword">if</span> (value) &#123;</span><br><span class="line">       ajaxPost(<span class="string">&quot;email/create&quot;</span>, &#123; <span class="attr">email</span>: value &#125;, <span class="function"><span class="keyword">function</span> (<span class="params">data</span>) </span>&#123;</span><br><span class="line">         <span class="built_in">console</span>.log(data);</span><br><span class="line">       &#125;);</span><br><span class="line">     &#125;</span><br><span class="line">   &#125;</span><br><span class="line"> &lt;/script&gt;</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="meta">@PostMapping(&quot;/email/create&quot;)</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> ResponseEntity <span class="title">createEmailUrl</span><span class="params">(<span class="meta">@RequestBody</span> Map&lt;String, String&gt; map)</span> <span class="keyword">throws</span> UnsupportedEncodingException, MessagingException </span>&#123;</span><br><span class="line">    String token = JwtToken.makeToken(map.get(<span class="string">&quot;email&quot;</span>), <span class="string">&quot;abc&quot;</span>, <span class="number">60</span> * <span class="number">30</span>);</span><br><span class="line">     <span class="comment">//注意，QQ邮箱或者163邮箱使用的不是登录密码，要去账户里生成授权码</span></span><br><span class="line">    SendEmail sendEmail = <span class="keyword">new</span> SendEmail(<span class="string">&quot;123@qq.com&quot;</span>, <span class="string">&quot;password&quot;</span>, <span class="string">&quot;smtp.qq.com&quot;</span>);</span><br><span class="line">    sendEmail.setSubject(<span class="string">&quot;邮箱注册&quot;</span>);</span><br><span class="line">    String emailContent = String.format(<span class="string">&quot;&lt;a href=&#x27;%sauthemail.html?code=%s&#x27;&gt;点击注册&lt;/a&gt;,30分钟内有效&quot;</span>, pageUrl, token);</span><br><span class="line">    sendEmail.addContent(emailContent);</span><br><span class="line">    sendEmail.addReceive(<span class="keyword">new</span> ReceiveAccount(map.get(<span class="string">&quot;email&quot;</span>), <span class="string">&quot;xx996用户&quot;</span>, Message.RecipientType.TO));</span><br><span class="line">    sendEmail.setPersonal(<span class="string">&quot;xx996管理员&quot;</span>);</span><br><span class="line">    sendEmail.saveChange();</span><br><span class="line">    sendEmail.sendEmail();</span><br><span class="line">    <span class="keyword">return</span> ResponseEntity.ok(token);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h2 id="验证邮件"><a href="#验证邮件" class="headerlink" title="验证邮件"></a>验证邮件</h2><h3 id="后端"><a href="#后端" class="headerlink" title="后端"></a>后端</h3> <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@GetMapping(&quot;/email/&#123;code&#125;&quot;)</span></span><br><span class="line">  <span class="function"><span class="keyword">public</span> ResponseEntity <span class="title">emailInfo</span><span class="params">(<span class="meta">@PathVariable</span> String code)</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">      Map&lt;String, String&gt; map = <span class="keyword">new</span> HashMap&lt;&gt;();</span><br><span class="line">      <span class="keyword">if</span> (!JwtToken.verifyToken(code, <span class="string">&quot;abc&quot;</span>)) &#123;</span><br><span class="line"></span><br><span class="line">          ResponseEntity.ok().body((map.put(<span class="string">&quot;mess&quot;</span>, <span class="string">&quot;身份认证失败&quot;</span>)));</span><br><span class="line">      &#125;</span><br><span class="line"></span><br><span class="line">      String emial = JwtToken.getClaims(code, <span class="string">&quot;abc&quot;</span>).get().get(<span class="string">&quot;uid&quot;</span>).asString();</span><br><span class="line">      map.put(<span class="string">&quot;mess&quot;</span>, emial);</span><br><span class="line">      <span class="keyword">return</span> ResponseEntity.ok().body(map);</span><br><span class="line"></span><br><span class="line">  &#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<h3 id="前端"><a href="#前端" class="headerlink" title="前端"></a>前端</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">h1</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">span</span> <span class="attr">id</span>=<span class="string">&quot;h1&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> code = getQueryVariable(<span class="string">&quot;code&quot;</span>);</span><br><span class="line">    ajaxGet(<span class="string">&quot;email/&quot;</span> + code, <span class="function"><span class="keyword">function</span> (<span class="params">data</span>) </span>&#123;</span><br><span class="line">      $(<span class="string">&quot;#h1&quot;</span>).text(data.mess);</span><br><span class="line">    &#125;);</span><br></pre></td></tr></table></figure>
-
-<h1 id="微信登录"><a href="#微信登录" class="headerlink" title="微信登录"></a>微信登录</h1><p>这里微信登录是使用小程序实现的，个人是无法申请微信登录的。</p>
-<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/li5672/article/details/111170634">微信扫一扫登录(使用小程序实现)</a></p>
-<h1 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h1><p>项目中使用到的工具</p>
-<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>com.alibaba<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>fastjson<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">version</span>&gt;</span>1.2.78<span class="tag">&lt;/<span class="name">version</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>cn.hutool<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>hutool-http<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">version</span>&gt;</span>5.7.9<span class="tag">&lt;/<span class="name">version</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>cn.xx996<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>springboot-tool<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">version</span>&gt;</span>1.0.0<span class="tag">&lt;/<span class="name">version</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>cn.xx996<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>email<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">version</span>&gt;</span>1.0.0<span class="tag">&lt;/<span class="name">version</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br></pre></td></tr></table></figure>
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://blog.xx996.top/article/7d888e25.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="xx小台灯">
-      <meta itemprop="description" content="blog xx996">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="xx996">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/article/7d888e25.html" class="post-title-link" itemprop="url">发布jar包到maven中央仓库（2021最新）</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E5%B7%A5%E5%85%B7/" itemprop="url" rel="index"><span itemprop="name">工具</span></a>
-                </span>
-            </span>
-
-          
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="far fa-comment"></i>
-      </span>
-      <span class="post-meta-item-text">评论数：</span>
-    
-    <a title="valine" href="/article/7d888e25.html#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/article/7d888e25.html" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h1 id="配置环境"><a href="#配置环境" class="headerlink" title="配置环境"></a>配置环境</h1><h2 id="安装java环境"><a href="#安装java环境" class="headerlink" title="安装java环境"></a>安装<code>java</code>环境</h2>  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">链接：https://pan.baidu.com/s/1o-wFA-m33JQs-sQJ-DgRaQ </span><br><span class="line">提取码：ux7j</span><br></pre></td></tr></table></figure>
-<p>下载到服务器之后解压到指定位置</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta"></span></span><br><span class="line"><span class="meta">$</span><span class="bash"> mkdir /usr/java</span></span><br><span class="line"><span class="meta">$</span><span class="bash"> tar xzf jdk-8u301-linux-x64.tar.gz  -C /usr/java</span></span><br><span class="line"><span class="meta">$</span><span class="bash"> vim /etc/profile</span></span><br></pre></td></tr></table></figure>
-<p>写入下面的内容</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">export JAVA_HOME=/usr/java/jdk1.8.0_301</span><br><span class="line">export CLASSPATH=$JAVA_HOME/lib/tools.jar:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib</span><br><span class="line">export PATH=$JAVA_HOME/bin:$PATH</span><br></pre></td></tr></table></figure>
-<p>保存退出<br>执行<code>source /etc/profile</code>使配置文件生效。</p>
-<p>验证是否安装成功</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ java -version</span><br><span class="line">  java version &quot;1.8.0_301&quot;</span><br><span class="line">  Java(TM) SE Runtime Environment (build 1.8.0_301-b09)</span><br><span class="line">  Java HotSpot(TM) 64-Bit Server VM (build 25.301-b09, mixed mode)</span><br></pre></td></tr></table></figure>
-<p>看到这个就表示安装成功了。</p>
-<h2 id="安装maven"><a href="#安装maven" class="headerlink" title="安装maven"></a>安装<code>maven</code></h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$ mkdir /usr/mvn</span><br><span class="line">$ cd /usr/mvn</span><br><span class="line">$ wget https://mirrors.tuna.tsinghua.edu.cn/apache/maven/maven-3/3.8.1/binaries/apache-maven-3.8.1-bin.tar.gz</span><br><span class="line">$ tar -zxvf apache-maven-3.8.1-bin.tar.gz</span><br><span class="line">$ vim /etc/profile</span><br></pre></td></tr></table></figure>
-<p>写入下面内容</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">export MAVEN_HOME=/usr/mvn/apache-maven-3.8.1</span><br><span class="line"></span><br><span class="line">export PATH=$PATH:$MAVEN_HOME/bin</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p>保存退出<br>执行<code>source /etc/profile</code>使配置文件生效。</p>
-<p>验证是否安装成功</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$ mvn -version</span><br><span class="line">Maven home: /usr/mvn/apache-maven-3.8.1</span><br><span class="line">Java version: 1.8.0_301, vendor: Oracle Corporation, runtime: /usr/java/jdk1.8.0_301/jre</span><br><span class="line">Default locale: en_US, platform encoding: UTF-8</span><br><span class="line">OS name: &quot;linux&quot;, version: &quot;4.18.0-240.10.1.el8_3.x86_64&quot;, arch: &quot;amd64&quot;, family: &quot;unix&quot;</span><br></pre></td></tr></table></figure>
-<h1 id="其他工具"><a href="#其他工具" class="headerlink" title="其他工具"></a>其他工具</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ yum install git gpg -y</span><br></pre></td></tr></table></figure>
-<p>如果已经安装可以跳过这步</p>
-<h1 id="注册sonatype账号"><a href="#注册sonatype账号" class="headerlink" title="注册sonatype账号"></a>注册<code>sonatype</code>账号</h1><p> <a target="_blank" rel="noopener" href="https://issues.sonatype.org/secure/Signup!default.jspa">点击</a> 注册一个新的账户。</p>
-<p> 登录之后新建一个<code>issues</code><br> <img src="https://img-blog.csdnimg.cn/34d16e165bc64fcb8b95b59845e69ba6.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpNTY3Mg==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<p> 按要求填写就可以了，主要说一个<code>Group Id</code><br> 如果你的代码时托管在<code>Github</code>上的，那么写<code>Group Id</code>的时候就不能写<br> <code>com.github.xxx</code>了,我使用<code>io</code>开头，详情在<a target="_blank" rel="noopener" href="https://central.sonatype.org/changelog/#2021-04-01-comgithub-is-not-supported-anymore-as-a-valid-coordinate">这里</a></p>
-<p> 创建完成之后会跳转到这个连接<code>https://issues.sonatype.org/browse/OSSRH-xxxx</code>,当看到这个连接之后，你要在你的<code>Github</code>上创建一个仓库，来证明你是这个<code>Github</code>的主人，仓库的名字就是连接里的<code>OSSRH-xxxx</code>。</p>
-<p> 创建后的仓库连接为<code>https://github.com/yourgithubname/OSSRH-xxxx</code>,然后在帖子下面留言告诉管理员这个仓库你已经创建好了名字为<code>OSSRH-xxxx</code>的仓库,这样可以省去他让你证明你是这个账户的拥有者，提高效率。等到管理员回复之后就可以上传<code>jar</code>包了。</p>
-<p> 下面是管理员的回复，看到这个就表示完成了。</p>
- <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">io.github.xxx has been prepared, now user(s) youname can:</span><br><span class="line">Publish snapshot and release artifacts to s01.oss.sonatype.org</span><br><span class="line">Have a look at this section of our official guide for deployment instructions:</span><br><span class="line">https://central.sonatype.org/publish/publish-guide/#deployment</span><br><span class="line"></span><br><span class="line">Depending on your build configuration, your first component(s) might be released automatically after a successful deployment.</span><br><span class="line">If that happens, you will see a comment on this ticket confirming that your artifact has synced to Maven Central.</span><br><span class="line">If you do not see this comment within an hour or two, you can follow the steps in this section of our guide:</span><br><span class="line">https://central.sonatype.org/publish/release/</span><br><span class="line"></span><br><span class="line">######</span><br><span class="line"></span><br><span class="line">As part of our efforts to improve the security and quality posture of the open source supply chain,</span><br><span class="line">we plan to enable additional scanning of dependencies for security alerts soon. Since you&#x27;re already</span><br><span class="line">hosting your source code in Github, you can get these insights today by enabling Sonatype Lift.</span><br><span class="line">Sonatype Lift is free forever on public repositories! Lift tells you about open source vulnerabilities</span><br><span class="line">during code review, and goes beyond open source to scan your code for both code quality and security issues,</span><br><span class="line">providing feedback right in your pull requests.</span><br><span class="line">More information can be found at https://links.sonatype.com/products/lift/github-integration</span><br><span class="line"></span><br><span class="line">######</span><br></pre></td></tr></table></figure>
-
-<h1 id="发布前的准备"><a href="#发布前的准备" class="headerlink" title="发布前的准备"></a>发布前的准备</h1><h2 id="修改pom文件"><a href="#修改pom文件" class="headerlink" title="修改pom文件"></a>修改<code>pom</code>文件</h2>  <figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">groupId</span>&gt;</span>io.github.xxxx<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>xxxx<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">version</span>&gt;</span>1.0.0<span class="tag">&lt;/<span class="name">version</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">name</span>&gt;</span>xxx<span class="tag">&lt;/<span class="name">name</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">url</span>&gt;</span>xxxx<span class="tag">&lt;/<span class="name">url</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">description</span>&gt;</span>xxxxx<span class="tag">&lt;/<span class="name">description</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">distributionManagement</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">snapshotRepository</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">id</span>&gt;</span>ossrh<span class="tag">&lt;/<span class="name">id</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">url</span>&gt;</span>https://s01.oss.sonatype.org/content/repositories/snapshots<span class="tag">&lt;/<span class="name">url</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">snapshotRepository</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">repository</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">id</span>&gt;</span>ossrh<span class="tag">&lt;/<span class="name">id</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">url</span>&gt;</span>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/<span class="tag">&lt;/<span class="name">url</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">repository</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">distributionManagement</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">build</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">plugins</span>&gt;</span></span><br><span class="line"></span><br><span class="line">        <span class="tag">&lt;<span class="name">plugin</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>org.apache.maven.plugins<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>maven-compiler-plugin<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">version</span>&gt;</span>3.1<span class="tag">&lt;/<span class="name">version</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">configuration</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">source</span>&gt;</span>1.8<span class="tag">&lt;/<span class="name">source</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">target</span>&gt;</span>1.8<span class="tag">&lt;/<span class="name">target</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;/<span class="name">configuration</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">plugin</span>&gt;</span></span><br><span class="line">        <span class="comment">&lt;!-- Source --&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">plugin</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>org.apache.maven.plugins<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>maven-source-plugin<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">version</span>&gt;</span>2.2.1<span class="tag">&lt;/<span class="name">version</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">executions</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">execution</span>&gt;</span></span><br><span class="line">                    <span class="tag">&lt;<span class="name">phase</span>&gt;</span>package<span class="tag">&lt;/<span class="name">phase</span>&gt;</span></span><br><span class="line">                    <span class="tag">&lt;<span class="name">goals</span>&gt;</span></span><br><span class="line">                        <span class="tag">&lt;<span class="name">goal</span>&gt;</span>jar-no-fork<span class="tag">&lt;/<span class="name">goal</span>&gt;</span></span><br><span class="line">                    <span class="tag">&lt;/<span class="name">goals</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;/<span class="name">execution</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;/<span class="name">executions</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">plugin</span>&gt;</span></span><br><span class="line">        <span class="comment">&lt;!-- Javadoc --&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">plugin</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>org.apache.maven.plugins<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>maven-javadoc-plugin<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">version</span>&gt;</span>2.9.1<span class="tag">&lt;/<span class="name">version</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">configuration</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">additionalparam</span>&gt;</span>-Xdoclint:none<span class="tag">&lt;/<span class="name">additionalparam</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;/<span class="name">configuration</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">executions</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">execution</span>&gt;</span></span><br><span class="line">                    <span class="tag">&lt;<span class="name">phase</span>&gt;</span>package<span class="tag">&lt;/<span class="name">phase</span>&gt;</span></span><br><span class="line">                    <span class="tag">&lt;<span class="name">goals</span>&gt;</span></span><br><span class="line">                        <span class="tag">&lt;<span class="name">goal</span>&gt;</span>jar<span class="tag">&lt;/<span class="name">goal</span>&gt;</span></span><br><span class="line">                    <span class="tag">&lt;/<span class="name">goals</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;/<span class="name">execution</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;/<span class="name">executions</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">plugin</span>&gt;</span></span><br><span class="line">        <span class="comment">&lt;!-- GPG mvn clean deploy -P release -Dgpg.passphrase=YourPassphase --&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">plugin</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>org.apache.maven.plugins<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>maven-gpg-plugin<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">version</span>&gt;</span>1.5<span class="tag">&lt;/<span class="name">version</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">executions</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">execution</span>&gt;</span></span><br><span class="line">                    <span class="tag">&lt;<span class="name">id</span>&gt;</span>sign-artifacts<span class="tag">&lt;/<span class="name">id</span>&gt;</span></span><br><span class="line">                    <span class="tag">&lt;<span class="name">phase</span>&gt;</span>verify<span class="tag">&lt;/<span class="name">phase</span>&gt;</span></span><br><span class="line">                    <span class="tag">&lt;<span class="name">goals</span>&gt;</span></span><br><span class="line">                        <span class="tag">&lt;<span class="name">goal</span>&gt;</span>sign<span class="tag">&lt;/<span class="name">goal</span>&gt;</span></span><br><span class="line">                    <span class="tag">&lt;/<span class="name">goals</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;/<span class="name">execution</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;/<span class="name">executions</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">plugin</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">plugins</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">build</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">licenses</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">license</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">name</span>&gt;</span>MIT License<span class="tag">&lt;/<span class="name">name</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">url</span>&gt;</span>https://github.com/xxx/xxx/xxxxxx/master/LICENSE<span class="tag">&lt;/<span class="name">url</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">distribution</span>&gt;</span>repo,manual<span class="tag">&lt;/<span class="name">distribution</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">license</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">licenses</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">developers</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">developer</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">name</span>&gt;</span>xxx<span class="tag">&lt;/<span class="name">name</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">email</span>&gt;</span>xxxx<span class="tag">&lt;/<span class="name">email</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">url</span>&gt;</span>xxxx<span class="tag">&lt;/<span class="name">url</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">developer</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">developers</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">scm</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">connection</span>&gt;</span>scm:git:https://github.com/xxx/xxxx.git<span class="tag">&lt;/<span class="name">connection</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">developerConnection</span>&gt;</span>scm:git:https://github.com/xxxx/xxxx.git<span class="tag">&lt;/<span class="name">developerConnection</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">url</span>&gt;</span>https://github.com/xxxx/xxxxx<span class="tag">&lt;/<span class="name">url</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">tag</span>&gt;</span>0.0.1<span class="tag">&lt;/<span class="name">tag</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">scm</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<p>只需修改和自己相关的内容即可，文中用<code>xxxx</code>表示，其他的不需要修改</p>
-<p><code>Group Id</code>一定要和申请的保持一致</p>
-<h2 id="上传gpg-key"><a href="#上传gpg-key" class="headerlink" title="上传gpg key"></a>上传<code>gpg key</code></h2> <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash">  gpg generate-key</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> 按照提示输入用户名和邮箱，最后会输入一个密码，记住这个密码下面会用</span> </span><br></pre></td></tr></table></figure>
-
-<h3 id="将公钥发送到PGP密钥服务器"><a href="#将公钥发送到PGP密钥服务器" class="headerlink" title="将公钥发送到PGP密钥服务器"></a>将公钥发送到PGP密钥服务器</h3> <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash">   gpg --keyserver hkp://keyserver.ubuntu.com:11371 --send-keys 6107DF0A8EE6A62EABFDD12914F722543E7D2C1E</span></span><br></pre></td></tr></table></figure>
-<p> 返回结果</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">gpg: 将密钥‘14F722543E7D2C1E’上传到 hkp://keyserver.ubuntu.com:11371</span><br></pre></td></tr></table></figure>
-<p>验证是否上传成功</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash">   gpg --keyserver hkp://keyserver.ubuntu.com:11371 --recv-keys 6107DF0A8EE6A62EABFDD12914F722543E7D2C1E</span></span><br></pre></td></tr></table></figure>
-<p>返回结果</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">gpg: 密钥 14F722543E7D2C1E：“houbb &lt;XXX@XX.com&gt;”未改变</span><br><span class="line">gpg: 合计被处理的数量：1</span><br><span class="line">gpg:           未改变：1</span><br></pre></td></tr></table></figure>
-
-<h2 id="setting-xml"><a href="#setting-xml" class="headerlink" title="setting.xml"></a><code>setting.xml</code></h2><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">settings</span> <span class="attr">xmlns</span>=<span class="string">&quot;http://maven.apache.org/SETTINGS/1.2.0&quot;</span></span></span><br><span class="line"><span class="tag">          <span class="attr">xmlns:xsi</span>=<span class="string">&quot;http://www.w3.org/2001/XMLSchema-instance&quot;</span></span></span><br><span class="line"><span class="tag">          <span class="attr">xsi:schemaLocation</span>=<span class="string">&quot;http://maven.apache.org/SETTINGS/1.2.0 http://maven.apache.org/xsd/settings-1.2.0.xsd&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">servers</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">server</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">id</span>&gt;</span>ossrh<span class="tag">&lt;/<span class="name">id</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">username</span>&gt;</span>sonatype账号<span class="tag">&lt;/<span class="name">username</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">password</span>&gt;</span>sonatype密码<span class="tag">&lt;/<span class="name">password</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">server</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">servers</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">profiles</span>&gt;</span></span><br><span class="line">   <span class="tag">&lt;<span class="name">profile</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">id</span>&gt;</span>ossrh<span class="tag">&lt;/<span class="name">id</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">activation</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">activeByDefault</span>&gt;</span>true<span class="tag">&lt;/<span class="name">activeByDefault</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;/<span class="name">activation</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">properties</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">gpg.executable</span>&gt;</span>gpg2<span class="tag">&lt;/<span class="name">gpg.executable</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">gpg.passphrase</span>&gt;</span>gpg公钥的密码<span class="tag">&lt;/<span class="name">gpg.passphrase</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;/<span class="name">properties</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">profile</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">profiles</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">settings</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<p>注意判断<code>mvn</code>使用的<code>setting.xml</code>是哪里的，一般在<code>mvn</code>主目录下的<code>conf</code>文件夹和用户目录下的<code>.m2</code>文件夹</p>
-<h1 id="上传程序"><a href="#上传程序" class="headerlink" title="上传程序"></a>上传程序</h1><p>在项目根目录下执行</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> mvn clean deploy</span></span><br></pre></td></tr></table></figure>
-<p>稍等片刻会出现一个窗口，输入<code>gpg</code>的密码</p>
-<p><img src="https://img-blog.csdnimg.cn/3432ac48ec174e53990e7a3296fdb385.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpNTY3Mg==,size_16,color_FFFFFF,t_70" alt="看到这个表示发布成功"></p>
-<p> 看到这个表示已经上传成功了。</p>
-<p> 上传成功之后登录到<code>https://s01.oss.sonatype.org/</code>,账号就是一开始注册的sonatype账号。</p>
-<p> 登录之后会点击<code>Staging Repositories</code>会看到这个页面，选中记录点击<code>close</code>,成功之后点击<code>Release</code>。</p>
-<p> 到这步就已经大功告成了,稍等片刻就可以在这里看到上传的包了</p>
-<p> 比如 <code>Group Id</code>是<code>io.github.xxx</code></p>
-<p>  <code>artifactId</code>是<code>tool</code></p>
-<p>   <code>version</code>是<code>1.0.0</code>,</p>
-<p> 查看地址就是<code>https://repo.maven.apache.org/maven2/io/github/xxx/tool/1.0.0</code></p>
-<p> 如果上面这个连接可以查到，就已经可以在项目中使用了。同步到中央仓库的时间不太确定。</p>
-<p>发布成功之后去帖子上回复一下，告诉管理员发布成功了。</p>
-<p> <img src="https://img-blog.csdnimg.cn/689a5fa7f23b4d76890e46a39b577421.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpNTY3Mg==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<h1 id="遇到的问题"><a href="#遇到的问题" class="headerlink" title="遇到的问题"></a>遇到的问题</h1><ul>
-<li><p>执行<code>mvn deploy</code>的时候总是返回<code>401</code> 错误，找了各种办法都不能解决，重新注册了个账户就可以了，不知道是为什么。</p>
-</li>
-<li><p><code>repository</code>地址已经改变了，现在网上大部分的文章都是旧的，新的是这样的</p>
-<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">distributionManagement</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">snapshotRepository</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">id</span>&gt;</span>ossrh<span class="tag">&lt;/<span class="name">id</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">url</span>&gt;</span>https://s01.oss.sonatype.org/content/repositories/snapshots<span class="tag">&lt;/<span class="name">url</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">snapshotRepository</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">repository</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">id</span>&gt;</span>ossrh<span class="tag">&lt;/<span class="name">id</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">url</span>&gt;</span>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/<span class="tag">&lt;/<span class="name">url</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">repository</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">distributionManagement</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<p><a target="_blank" rel="noopener" href="https://central.sonatype.org/publish/publish-maven/">官方文档</a>有最新的配置信息，遇到问题之后还是要先查官方文档</p>
-</li>
-<li><p>在<code>centos</code>发布时报错<br><code>Failed to execute goal org.apache.maven.plugins:maven-gpg-plugin:1.6:sign</code></p>
-<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/li5672/article/details/119564796">解决方法</a></p>
-</li>
-</ul>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://blog.xx996.top/article/4c17429a.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="xx小台灯">
-      <meta itemprop="description" content="blog xx996">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="xx996">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/article/4c17429a.html" class="post-title-link" itemprop="url">免费获取JetBrains一年全家桶</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E5%B7%A5%E5%85%B7/" itemprop="url" rel="index"><span itemprop="name">工具</span></a>
-                </span>
-            </span>
-
-          
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="far fa-comment"></i>
-      </span>
-      <span class="post-meta-item-text">评论数：</span>
-    
-    <a title="valine" href="/article/4c17429a.html#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/article/4c17429a.html" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>登录<a target="_blank" rel="noopener" href="https://education.github.com/">Github Education</a><br><img src="https://img-blog.csdnimg.cn/img_convert/4bd2e3f02f00c140b28fbfcc0cea026a.png"></p>
-<p>点击<code>Get benefits</code></p>
-<p><img src="https://img-blog.csdnimg.cn/img_convert/18ae8025125437848fc8e8812fed27ec.png"></p>
-<p>点击<code>Get student benefits</code></p>
-<p><img src="https://img-blog.csdnimg.cn/img_convert/c7b7a368e4d2b79e30a2fb57fe288af4.png"></p>
-<p>下一步以后上传自己的学生证件和个人信息等待审核完成。</p>
-<p>时间多久不太确定，我大概等了一个月，审核通过之后会收到一封邮件</p>
-<p>收到成功之后的邮件之后 到<a target="_blank" rel="noopener" href="https://www.jetbrains.com/shop/eform/students">这里</a></p>
-<p><img src="https://img-blog.csdnimg.cn/img_convert/0af30a89da36c9e59a7c04ba04c33fe3.png"></p>
-<p>关联上申请时候的github就可以了，关联之后登陆<code>JetBrains</code>账户就可得到授权了</p>
-<p><img src="https://img-blog.csdnimg.cn/img_convert/93811702d508c41148a59570ff1a04b8.png"></p>
-<p> 如果没有学生身份的话，还是建议大家购买正版，拒绝盗版软件，购买正版请点击<a target="_blank" rel="noopener" href="https://www.jetbrains.com/">这里</a></p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/"><i class="fa fa-angle-left" aria-label="上一页"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/">3</a><a class="page-number" href="/page/4/">4</a><a class="extend next" rel="next" href="/page/3/"><i class="fa fa-angle-right" aria-label="下一页"></i></a>
+    <a class="extend prev" rel="prev" href="/"><i class="fa fa-angle-left" aria-label="上一页"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/">3</a><span class="space">&hellip;</span><a class="page-number" href="/page/5/">5</a><a class="extend next" rel="next" href="/page/3/"><i class="fa fa-angle-right" aria-label="下一页"></i></a>
   </nav>
 
 
@@ -1254,7 +1092,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">37</span>
+          <span class="site-state-item-count">43</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
