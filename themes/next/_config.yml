@@ -612,7 +612,7 @@ changyan:
 # For more information: https://valine.js.org, https://github.com/xCss/Valine
 
 valine:
-  enable: true # 是否开启
+  enable: false # 是否开启
   appid: RDLWP2Kws1obhBRjYB3eU692-gzGzoHsz  # 上一步获取的 App ID
   appkey: 8Rk4HBGC6JIOy9QKecI1qgBC # 上一步获取的 App Key
   notify: false # 新留言是否需要通知 https://github.com/xCss/Valine/wiki
