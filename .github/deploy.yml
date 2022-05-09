@@ -19,6 +19,7 @@ jobs:
       - name: deploy file to server
         uses: wlixcc/SFTP-Deploy-Action@v1.0 
         with:  
+          GITHUB_TOKEN: ${{ secrets.TOKEN }} 
           username: 'root'   #ssh user name
           server: '${{ secrets.HOST }}' #引用之前创建好的secret
           password: ${{ secrets.PASSWORD }} #引用之前创建好的secret
