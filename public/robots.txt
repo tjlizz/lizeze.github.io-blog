@@ -1,8 +1,0 @@
-# hexo robots.txt
-User-agent: *
-Allow: /
-Allow: /archives/
-Allow: /categories/
-Allow: /tags/
-
-Sitemap: https://blog.xx996.top/sitemap.xml
