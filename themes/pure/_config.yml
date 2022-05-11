@@ -195,7 +195,8 @@ twitter:
 google_plus:
 fb_admins:
 fb_app_id:  
-  
+beian: 冀ICP备2021020075号
+     
 # profile
 profile:
   enabled: true # Whether to show profile bar

@@ -9213,3 +9213,11 @@ body.okayNav-loaded {
     max-height: 200px;
   }
 }
+.footer_copyright{
+  position: fixed;
+  text-align: center;
+  bottom: 10px;
+  width: 100%;
+  z-index: 999;
+  left: 0;
+}
