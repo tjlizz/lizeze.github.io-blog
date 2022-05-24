@@ -46,4 +46,19 @@ Vite会使用`esbuild预构建依赖`，这么做的目的有两个
   
   Vite会将预购建的依赖缓存到`node_modules/.vite`, 它根据几个来源决定是否要重新运行与构建步骤 
 
+  1. `package.json`中的`dependencies `列表
+
+  2. 包管理器的`lockfile`，例如`package-lock.json`,`yarn.lock`,`pnpm-lock.yaml`
+
+  3. 可能在`vite.config.js`相关字段中配置过的。
+
+   只有在上述其中一项发生更改时，才需要重新允许预购建。
+
+    如果出于某些原因，需要强制`vite`重新构建依赖，可以使用`--force`命令行选项启动开发服务器，或者手动删除缓存目录 `node_modules/.vite`
+
+* 浏览器缓存
+
+ 解析后的依赖请求会以`HTTP`头`max-age=31536000,immutable`缓存。一旦被缓存，这些请求将永远不会在请求开发服务器。如果安装了不同版本，在附加不同的`query`使他们自动失效。
+
+ 
      
