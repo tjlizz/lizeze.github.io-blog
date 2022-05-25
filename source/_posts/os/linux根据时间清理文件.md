@@ -1,33 +1,49 @@
 ---
-title: linux根据时间清理文件
+title: linux删除指定时间的文件
 tags: linux
 abbrlink: 9c9397cb
 date: 2022-05-11 10:56:04
 ---
 
-需要根据时间删除这个目录下的文件，/tmp，清理掉20天之前的无效数据。
 
-可以使用下面一条命令去完成：
+#  删除超过30天的文件
+
+ 可以使用`find`命令搜索修改时间早于30天的文件
+
+ ```shell
+ $ find /tmp -type  f -mtime +30
+ ```
+验证一下搜索结果是否正确，避免误删文件。确认无误后，执行以下命令删除
 
 ```shell
-find /tmp -mtime +21 -name "*.*" -exec rm -Rf {} \;
-
+$ find /tmp -type f -mtime +30 -delete 
 ```
-这个是根据时间删除。
 
-下面简要解释一下，这句shell命令：
-
-find /home/lifeccp/dicom/studies -mtime +21 -name "*.*" -exec rm -Rf {} \;
-
-* /home/lifeccp/dicom/studies ：准备要进行清理的任意目录
-* -mtime：标准语句写法
-* ＋10：查找10天前的文件，这里用数字代表天数，＋30表示查找30天前的文件
-* "*.*"：希望查找的数据类型，"*.jpg"表示查找扩展名为jpg的所有文件，"*"表示查找所有文件
-* -exec：固定写法
-* rm -rf：强制删除文件，包括目录
-*  {} \; ：固定写法，一对大括号+空格+/+;
-
-当然也可以根据文件名、根据大小，根据其他不同条件过滤删除，或者修改等，可以考虑sort等命令结合使用。
+# 删除指定类型文件
 
 
-> 原文链接  https://blog.csdn.net/sinat_29325027/article/details/80887650
+除了删除所有文件之外，还可以添加更多筛选器来查找命令。例如，只需要删除扩展名为“.log”并在30天之前修改的文件。
+
+为了安全起见，首先进行试运行并列出符合条件的文件。
+
+```shell 
+  $ find /var/log -name "*.log" -type f -mtime +30 
+```
+ 验证数据无误后，执行以下命令删除
+
+ ```shell
+ $ find /var/log -name "*.log" -type f -mtime +30 -delete 
+ ```
+
+ # 删除目录
+
+ 以下命令将搜索 /var/log 目录下 90 天之前修改过的所有目录。
+ ```shell 
+ $ find /var/log -type d -mtime +90 
+ ```
+ 我们可以使用命令行选项执行 `rm` 命令。查找命令输出将作为输入发送到 `rm` 命令。`-exec`
+ 
+ ```shell
+ $ find /var/log -type d -mtime +30 -exec rm -rf {} \; 
+ ```
+ > 在删除目录之前，请确保没有删除任何有用的目录。有时，父目录修改日期可能早于子目录。在这种情况下，递归删除也可以删除子目录。
