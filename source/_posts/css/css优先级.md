@@ -28,7 +28,7 @@ tags:
 </body>
 </html>
 ```
-![](https://gitee.com/zeze.li/blogimage/raw/master/css-test-001.png)
+![](https://s3.bmp.ovh/imgs/2022/05/25/fe064c239e0b5b81.png)
 
 
 
@@ -60,7 +60,7 @@ tags:
 ```css
 h1{color: blue;}
 ```
-![](https://gitee.com/zeze.li/blogimage/raw/master/css-test-001.png)
+![](https://s3.bmp.ovh/imgs/2022/05/25/fe064c239e0b5b81.png)
 
 # Style标签优先于link标签
 
@@ -118,7 +118,7 @@ h1{color: blue;}
 
 </html>
  ```
- ![](https://gitee.com/zeze.li/blogimage/raw/master/css-test-002.png)
+![](https://s3.bmp.ovh/imgs/2022/05/25/cb87d29bbeff0e3e.png)
 
  # 选择器选择器越详细优先级越高
 
@@ -147,4 +147,4 @@ h1{color: blue;}
 </body>
 </html>
  ```
- ![](https://gitee.com/zeze.li/blogimage/raw/master/css-test-002.png)
+![](https://s3.bmp.ovh/imgs/2022/05/25/cb87d29bbeff0e3e.png)
