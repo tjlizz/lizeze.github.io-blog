@@ -1,3 +1,4 @@
+ cd  /code/my-blog
 git pull
 
 npm run  build
