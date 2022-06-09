@@ -1,3 +1,5 @@
+#!/bin/bash
+
 cd  /code/my-blog
 git checkout .
 git pull
