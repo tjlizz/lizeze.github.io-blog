@@ -1,9 +1,10 @@
 ---
 title: activeMQ删除队列中的消息
-date: 2022-08-11 14:38:38
 tags:
-     - java
-     - mq
+  - java
+  - mq
+abbrlink: 63add551
+date: 2022-08-11 14:38:38
 ---
 
 ```java
