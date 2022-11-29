@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>xx996</title>
+  
+  
+  <link href="https://blog.xx996.top/atom.xml" rel="self"/>
+  
+  <link href="https://blog.xx996.top/"/>
+  <updated>2022-11-29T02:14:12.566Z</updated>
+  <id>https://blog.xx996.top/</id>
+  
+  <author>
+    <name>xx小台灯</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://blog.xx996.top/article/4a17b156.html"/>
+    <id>https://blog.xx996.top/article/4a17b156.html</id>
+    <published>2022-11-29T02:14:12.566Z</published>
+    <updated>2022-11-29T02:14:12.566Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>TypeScript记录</title>
+    <link href="https://blog.xx996.top/article/1bc3f4bd.html"/>
+    <id>https://blog.xx996.top/article/1bc3f4bd.html</id>
+    <published>2022-09-05T07:45:33.000Z</published>
+    <updated>2022-11-29T02:14:12.598Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="TS-中-interface-和-type-的区别是什么"><a href="#TS-中-interface-和-type-的区别是什么" class="headerlink" title="TS 中 interface 和 type 的区别是什么"></a>TS 中 interface 和 type 的区别是什么</h1><h2 id="不同点"><a href="#不同点" class="headerlink" title="不同点"></a>不同点</h2><ul><li><p>type 可用于 string、number、bool、undefined、null 和元组，而 interface 只能描述对象（含数组、函数、包装对象）</p></li><li><p>同名 interface 会合并，而同名 type 会报错</p></li><li><p>type 声明的是类型别名，而 interface 声明的是新类型。</p></li></ul><h2 id="相同点"><a href="#相同点" class="headerlink" title="相同点"></a>相同点</h2><ul><li><p>都能描述对象（含数组、函数、包装对象）</p></li><li><p>都能用于扩展一个类型。type 用交叉类型做到这一点，interface 用 extends 做到这一点。</p></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;TS-中-interface-和-type-的区别是什么&quot;&gt;&lt;a href=&quot;#TS-中-interface-和-type-的区别是什么&quot; class=&quot;headerlink&quot; title=&quot;TS 中 interface 和 type 的区别是什么&quot;&gt;&lt;/a&gt;TS</summary>
+      
+    
+    
+    
+    
+    <category term="typescript" scheme="https://blog.xx996.top/tags/typescript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>activeMQ删除队列中的消息</title>
+    <link href="https://blog.xx996.top/article/63add551.html"/>
+    <id>https://blog.xx996.top/article/63add551.html</id>
+    <published>2022-08-11T06:38:38.000Z</published>
+    <updated>2022-11-29T02:14:12.582Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">removeMessage</span><span class="params">(String queuesName, String messageId)</span></span></span><br><span class="line"><span class="function">            <span class="keyword">throws</span> Exception </span>&#123;</span><br><span class="line">        String jmsUrl=<span class="string">&quot;192.168.14.152:11099&quot;</span></span><br><span class="line">        String url = String.format(<span class="string">&quot;service:jmx:rmi:///jndi/rmi://%s/jmxrmi&quot;</span>, jmsUrl);</span><br><span class="line">        JMXServiceURL urls = <span class="keyword">new</span> JMXServiceURL(url);</span><br><span class="line"></span><br><span class="line">        JMXConnector connector = JMXConnectorFactory.connect(urls, <span class="keyword">null</span>);</span><br><span class="line">        connector.connect();</span><br><span class="line">        MBeanServerConnection conn = connector.getMBeanServerConnection();</span><br><span class="line"></span><br><span class="line">       </span><br><span class="line">        ObjectName name = <span class="keyword">new</span> ObjectName(<span class="string">&quot;myDomain:brokerName=localhost,type=Broker&quot;</span>);</span><br><span class="line">        BrokerViewMBean mBean = (BrokerViewMBean) MBeanServerInvocationHandler.newProxyInstance</span><br><span class="line">                (conn, name, BrokerViewMBean.class, <span class="keyword">true</span>);</span><br><span class="line"></span><br><span class="line">        <span class="keyword">for</span> (ObjectName na : mBean.getQueues()) &#123;</span><br><span class="line">            QueueViewMBean queueBean = (QueueViewMBean)</span><br><span class="line">                    MBeanServerInvocationHandler.newProxyInstance</span><br><span class="line">                            (conn, na, QueueViewMBean.class, <span class="keyword">true</span>);</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">            <span class="keyword">if</span> (queueBean.getName().equals(queuesName)) &#123;</span><br><span class="line">                queueBean.removeMessage(messageId);</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">            &#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//            System.out.println(&quot;******************************&quot;);</span></span><br><span class="line"><span class="comment">//            System.out.println(&quot;队列的名称：&quot; + queueBean.getName());</span></span><br><span class="line"><span class="comment">//            System.out.println(&quot;队列中剩余的消息数：&quot; + queueBean.getQueueSize());</span></span><br><span class="line"><span class="comment">//            System.out.println(&quot;消费者数：&quot; + queueBean.getConsumerCount());</span></span><br><span class="line"><span class="comment">//            System.out.println(&quot;消息入队的数量：&quot; + queueBean.getEnqueueCount());</span></span><br><span class="line"><span class="comment">//            System.out.println(&quot;消息出队的数量：&quot; + queueBean.getDequeueCount());</span></span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure><p> 修改mq配置 </p><p> bin/env</p> <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"> ACTIVEMQ_SUNJMX_START=&quot;$ACTIVEMQ_SUNJMX_START -Dcom.sun.management.jmxremote -Djava.rmi.server.hostname=192.168.14.152&quot;</span><br><span class="line">ACTIVEMQ_OPTS=&quot;$ACTIVEMQ_OPTS -Djava.rmi.server.hostname=192.168.14.152 -Dcom.sun.management.jmxremote.port=11099 -Dcom.sun.management.jmxremote.rmi.port=11099 -Dcom.sun.management.jmxremote.ssl=false -Dcom.sun.management.jmxremote.authenticate=false &quot;</span><br></pre></td></tr></table></figure><p>activemq.xml<br> <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;broker xmlns=&quot;http://activemq.apache.org/schema/core&quot; schedulePeriodForDestinationPurge=&quot;30000&quot;  useJmx=&quot;true&quot;  brokerName=&quot;localhost&quot; dataDirectory=&quot;$&#123;activemq.data&#125;&quot;&gt;</span><br></pre></td></tr></table></figure></p><h2 id="发送消息"><a href="#发送消息" class="headerlink" title="发送消息"></a>发送消息</h2> <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">Session session = <span class="keyword">null</span>;</span><br><span class="line">Connection connection = <span class="keyword">null</span>;</span><br><span class="line">MessageProducer producer = <span class="keyword">null</span>;</span><br><span class="line"></span><br><span class="line">ConnectionFactory connectionFactory =</span><br><span class="line">        <span class="keyword">new</span> ActiveMQConnectionFactory(aqUrl);</span><br><span class="line">connection = connectionFactory.createConnection();</span><br><span class="line">connection.start();</span><br><span class="line">session = connection.createSession(<span class="keyword">false</span>,</span><br><span class="line">        Session.AUTO_ACKNOWLEDGE);</span><br><span class="line">Destination destination = session.createQueue(queueName);</span><br><span class="line">producer = session.createProducer(destination);</span><br><span class="line">TextMessage message = session.createTextMessage();</span><br><span class="line">message.setText(messageContent);</span><br><span class="line">message.setJMSReplyTo(destination);</span><br><span class="line">producer.send(destination, message);</span><br><span class="line"></span><br><span class="line">producer.send(message);</span><br><span class="line"></span><br><span class="line"><span class="keyword">return</span> message.getJMSMessageID();</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=</summary>
+      
+    
+    
+    
+    
+    <category term="java" scheme="https://blog.xx996.top/tags/java/"/>
+    
+    <category term="mq" scheme="https://blog.xx996.top/tags/mq/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>统计终端中常用的命令</title>
+    <link href="https://blog.xx996.top/article/144939f0.html"/>
+    <id>https://blog.xx996.top/article/144939f0.html</id>
+    <published>2022-07-18T08:54:43.000Z</published>
+    <updated>2022-11-29T02:14:12.598Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">history | awk &#x27;&#123;CMD[$2]++;count++;&#125;END &#123; for (a in CMD)print CMD[a] &quot; &quot; CMD[a]/count*100 &quot;% &quot; a;&#125;&#x27; | grep -v &quot;./&quot; | column -c3 -s &quot; &quot; -t | sort -nr | nl | head -n10</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;</summary>
+      
+    
+    
+    
+    
+    <category term="tool" scheme="https://blog.xx996.top/tags/tool/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Git删除提交到仓库的文件</title>
+    <link href="https://blog.xx996.top/article/45bcd07d.html"/>
+    <id>https://blog.xx996.top/article/45bcd07d.html</id>
+    <published>2022-07-18T02:37:58.000Z</published>
+    <updated>2022-11-29T02:14:12.566Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta"></span></span><br><span class="line"><span class="meta">$</span><span class="bash"> git rm -r --cached a/2.txt</span></span><br><span class="line"><span class="meta"></span></span><br><span class="line"><span class="meta">$</span><span class="bash"> git commit -m  <span class="string">&quot;删除a目录下的2.txt文件&quot;</span></span></span><br><span class="line"><span class="meta"></span></span><br><span class="line"><span class="meta">$</span><span class="bash"> git push  origin 分支名称</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class</summary>
+      
+    
+    
+    
+    
+    <category term="git" scheme="https://blog.xx996.top/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>RestControllerAdvice返回String时异常</title>
+    <link href="https://blog.xx996.top/article/96cbeb8e.html"/>
+    <id>https://blog.xx996.top/article/96cbeb8e.html</id>
+    <published>2022-07-14T01:55:18.000Z</published>
+    <updated>2022-11-29T02:14:12.566Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="meta">@RestControllerAdvice(value = &quot;cn.xx996&quot;)</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">CommonResponseDataAdvice</span> <span class="keyword">implements</span> <span class="title">ResponseBodyAdvice</span>&lt;<span class="title">Object</span>&gt; </span>&#123;</span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">boolean</span> <span class="title">supports</span><span class="params">(MethodParameter returnType, Class&lt;? extends HttpMessageConverter&lt;?&gt;&gt; converterType)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="keyword">true</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> Object <span class="title">beforeBodyWrite</span><span class="params">(Object o, MethodParameter returnType, MediaType selectedContentType, Class&lt;? extends HttpMessageConverter&lt;?&gt;&gt; selectedConverterType, ServerHttpRequest request, ServerHttpResponse serverHttpResponse)</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">        CommonResponse&lt;Object&gt; response = <span class="keyword">new</span> CommonResponse&lt;&gt;(<span class="string">&quot;&quot;</span>, <span class="number">0</span>);</span><br><span class="line"></span><br><span class="line">        <span class="keyword">if</span> (<span class="keyword">null</span> == o) &#123;</span><br><span class="line">            <span class="keyword">return</span> response;</span><br><span class="line">        &#125; <span class="keyword">else</span> <span class="keyword">if</span> (o <span class="keyword">instanceof</span> CommonResponse) &#123;</span><br><span class="line">            response = (CommonResponse&lt;Object&gt;) o;</span><br><span class="line">        &#125; <span class="keyword">else</span> <span class="keyword">if</span> (o <span class="keyword">instanceof</span> String) &#123;</span><br><span class="line"></span><br><span class="line">            <span class="comment">//返回是String类型时，单独处理。转换成JSON字符串即可</span></span><br><span class="line">            response.setData(o);</span><br><span class="line">            <span class="keyword">return</span> JSON.toJSONString(response);</span><br><span class="line">        &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">            response.setData(o);</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> response;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=</summary>
+      
+    
+    
+    
+    
+    <category term="java" scheme="https://blog.xx996.top/tags/java/"/>
+    
+    <category term="springboot" scheme="https://blog.xx996.top/tags/springboot/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>nginx反向代理websocket</title>
+    <link href="https://blog.xx996.top/article/efc4f59c.html"/>
+    <id>https://blog.xx996.top/article/efc4f59c.html</id>
+    <published>2022-07-05T03:52:33.000Z</published>
+    <updated>2022-11-29T02:14:12.582Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">http &#123;</span><br><span class="line">    include mime.types;</span><br><span class="line">    default_type application/octet-stream;</span><br><span class="line">    map $http_upgrade $connection_upgrade &#123;</span><br><span class="line">        default upgrade;</span><br><span class="line">        &#x27;&#x27;   close;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"> location /socketserver &#123;</span><br><span class="line"></span><br><span class="line">    proxy_pass http://127.0.0.1:8082;</span><br><span class="line">    proxy_set_header Upgrade $http_upgrade;</span><br><span class="line">    proxy_set_header Connection $connection_upgrade;</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span c</summary>
+      
+    
+    
+    
+    
+    <category term="nginx" scheme="https://blog.xx996.top/tags/nginx/"/>
+    
+    <category term="websocket" scheme="https://blog.xx996.top/tags/websocket/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>jpa动态查询条件</title>
+    <link href="https://blog.xx996.top/article/4a55ce1d.html"/>
+    <id>https://blog.xx996.top/article/4a55ce1d.html</id>
+    <published>2022-06-26T13:52:12.000Z</published>
+    <updated>2022-11-29T02:14:12.582Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@Data</span></span><br><span class="line"><span class="meta">@AllArgsConstructor</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">SearchCriteria</span> </span>&#123;</span><br><span class="line">    <span class="keyword">private</span> String key;</span><br><span class="line">    <span class="keyword">private</span> Object value;</span><br><span class="line">    <span class="keyword">private</span> SearchOperation operation;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">enum</span> <span class="title">SearchOperation</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    GREATER_THAN,</span><br><span class="line">    LESS_THAN,</span><br><span class="line">    GREATER_THAN_EQUAL,</span><br><span class="line">    LESS_THAN_EQUAL,</span><br><span class="line">    NOT_EQUAL,</span><br><span class="line">    EQUAL,</span><br><span class="line">    LIKE,</span><br><span class="line">    LIKE_START,</span><br><span class="line">    LIKE_END,</span><br><span class="line">    IN,</span><br><span class="line">    NOT_IN</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Specification</span>&lt;<span class="title">T</span>&gt; <span class="keyword">implements</span> <span class="title">Specification</span>&lt;<span class="title">T</span>&gt; </span>&#123;</span><br><span class="line">    <span class="keyword">private</span> List&lt;SearchCriteria&gt; list = <span class="keyword">new</span> ArrayList&lt;&gt;();</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">add</span><span class="params">(SearchCriteria criteria)</span> </span>&#123;</span><br><span class="line">        list.add(criteria);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> Predicate <span class="title">toPredicate</span><span class="params">(Root&lt;T&gt; root, CriteriaQuery&lt;?&gt; query, CriteriaBuilder builder)</span> </span>&#123;</span><br><span class="line">        List&lt;Predicate&gt; predicates = <span class="keyword">new</span> ArrayList&lt;&gt;();</span><br><span class="line">        <span class="keyword">for</span> (SearchCriteria criteria : list) &#123;</span><br><span class="line">            <span class="keyword">switch</span> (criteria.getOperation()) &#123;</span><br><span class="line">                <span class="keyword">case</span> GREATER_THAN:</span><br><span class="line">                    predicates.add(builder.greaterThan(root.get(criteria.getKey()), criteria.getValue().toString()));</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> LESS_THAN:</span><br><span class="line">                    predicates.add(builder.lessThan(root.get(criteria.getKey()), criteria.getValue().toString()));</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> GREATER_THAN_EQUAL:</span><br><span class="line">                    predicates.add(builder.greaterThanOrEqualTo(root.get(criteria.getKey()), criteria.getValue().toString()));</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> LESS_THAN_EQUAL:</span><br><span class="line">                    predicates.add(builder.lessThanOrEqualTo(root.get(criteria.getKey()), criteria.getValue().toString()));</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> NOT_EQUAL:</span><br><span class="line">                    predicates.add(builder.notEqual(root.get(criteria.getKey()), criteria.getValue()));</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> EQUAL:</span><br><span class="line">                    predicates.add(builder.equal(root.get(criteria.getKey()), criteria.getValue()));</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> LIKE:</span><br><span class="line">                    predicates.add(builder.like(builder.lower(root.get(criteria.getKey())), <span class="string">&quot;%&quot;</span> + criteria.getValue().toString().toLowerCase() + <span class="string">&quot;%&quot;</span>));</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> LIKE_END:</span><br><span class="line">                    predicates.add(builder.like(builder.lower(root.get(criteria.getKey())), criteria.getValue().toString().toLowerCase() + <span class="string">&quot;%&quot;</span>));</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> LIKE_START:</span><br><span class="line">                    predicates.add(builder.like(builder.lower(root.get(criteria.getKey())), <span class="string">&quot;%&quot;</span> + criteria.getValue().toString().toLowerCase()));</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> IN:</span><br><span class="line">                    predicates.add(builder.in(root.get(criteria.getKey())).value(criteria.getValue()));</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> NOT_IN:</span><br><span class="line">                    predicates.add(builder.not(root.get(criteria.getKey())).in(criteria.getValue()));</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> builder.and(predicates.toArray(<span class="keyword">new</span> Predicate[<span class="number">0</span>]));</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@PostMapping</span></span><br><span class="line"><span class="function">ResponseEntity <span class="title">specification</span><span class="params">(<span class="meta">@RequestBody</span> List&lt;SearchCriteria&gt; searchCriteria)</span> </span>&#123;</span><br><span class="line">    UserSpecification&lt;UserEntity&gt; appleSpecification = <span class="keyword">new</span> UserSpecification();</span><br><span class="line">    searchCriteria.stream().map(</span><br><span class="line">            searchCriterion -&gt; <span class="keyword">new</span> SearchCriteria(searchCriterion.getKey(),</span><br><span class="line">                    searchCriterion.getValue(),</span><br><span class="line">                    searchCriterion.getOperation())).forEach(appleSpecification::add);</span><br><span class="line">    List&lt;UserEntity&gt; msGenreList = userDao.findAll(appleSpecification);</span><br><span class="line">    msGenreList.forEach(System.out::println);</span><br><span class="line"></span><br><span class="line"><span class="keyword">return</span>  ResponseEntity.status(HttpStatus.OK).body(msGenreList);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=</summary>
+      
+    
+    
+    
+    
+    <category term="java" scheme="https://blog.xx996.top/tags/java/"/>
+    
+    <category term="jpa" scheme="https://blog.xx996.top/tags/jpa/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>idea目录文件显示百分比数字</title>
+    <link href="https://blog.xx996.top/article/da9429a1.html"/>
+    <id>https://blog.xx996.top/article/da9429a1.html</id>
+    <published>2022-06-10T06:53:51.000Z</published>
+    <updated>2022-11-29T02:14:12.566Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ctrl + ALT + F6</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span</summary>
+      
+    
+    
+    
+    
+    <category term="工具" scheme="https://blog.xx996.top/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>页面url的一些操作</title>
+    <link href="https://blog.xx996.top/article/c509c10d.html"/>
+    <id>https://blog.xx996.top/article/c509c10d.html</id>
+    <published>2022-06-08T06:54:23.000Z</published>
+    <updated>2022-11-29T02:14:12.582Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="获取URL的参数"><a href="#获取URL的参数" class="headerlink" title="获取URL的参数"></a>获取URL的参数</h1><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">getQueryVariable</span>(<span class="params">variable</span>)</span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">var</span> query = <span class="built_in">window</span>.location.search.substring(<span class="number">1</span>);</span><br><span class="line">    <span class="keyword">var</span> vars = query.split(<span class="string">&quot;&amp;&quot;</span>);</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">var</span> i=<span class="number">0</span>;i&lt;vars.length;i++) &#123;</span><br><span class="line">            <span class="keyword">var</span> pair = vars[i].split(<span class="string">&quot;=&quot;</span>);</span><br><span class="line">            <span class="keyword">if</span>(pair[<span class="number">0</span>] == variable)&#123;<span class="keyword">return</span> pair[<span class="number">1</span>];&#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span>(<span class="literal">false</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h2><p><code>http://127.0.0.1/a.html?id=1&amp;name=a</code></p><p> getQueryVariable(“id”) 返回1</p><p> getQueryVariable(“name”) 返回a</p><p>  getQueryVariable(“age”) 返回false</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;获取URL的参数&quot;&gt;&lt;a href=&quot;#获取URL的参数&quot; class=&quot;headerlink&quot; title=&quot;获取URL的参数&quot;&gt;&lt;/a&gt;获取URL的参数&lt;/h1&gt;&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;</summary>
+      
+    
+    
+    
+    
+    <category term="js" scheme="https://blog.xx996.top/tags/js/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>RVM is not a function</title>
+    <link href="https://blog.xx996.top/article/dcc8e7ab.html"/>
+    <id>https://blog.xx996.top/article/dcc8e7ab.html</id>
+    <published>2022-06-02T00:54:09.000Z</published>
+    <updated>2022-11-29T02:14:12.582Z</updated>
+    
+    <content type="html"><![CDATA[<p>出现这个提示之后</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">RVM is not a function, selecting rubies with &#x27;rvm use ...&#x27; will not work.</span><br><span class="line"></span><br><span class="line">You need to change your terminal emulator preferences to allow login shell.</span><br><span class="line">Sometimes it is required to use `/bin/bash --login` as the command.</span><br><span class="line">Please visit https://rvm.io/integration/gnome-terminal/ for an example.</span><br></pre></td></tr></table></figure><p>  需要执行这个命令<br> <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">$  cp ~/.profile  ~/.bash_login</span><br><span class="line"> </span><br></pre></td></tr></table></figure></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;出现这个提示之后&lt;/p&gt;
+&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/</summary>
+      
+    
+    
+    
+    
+    <category term="Ruby" scheme="https://blog.xx996.top/tags/Ruby/"/>
+    
+    <category term="Ruby on Rails" scheme="https://blog.xx996.top/tags/Ruby-on-Rails/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>发送ssh公钥到Linux服务器</title>
+    <link href="https://blog.xx996.top/article/1c96518c.html"/>
+    <id>https://blog.xx996.top/article/1c96518c.html</id>
+    <published>2022-05-31T06:33:53.000Z</published>
+    <updated>2022-11-29T02:14:12.582Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="生成ssh公钥"><a href="#生成ssh公钥" class="headerlink" title="生成ssh公钥"></a>生成ssh公钥</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ ssh-keygen -t rsa</span><br><span class="line"></span><br></pre></td></tr></table></figure><h1 id="发送ssh公钥到Linux服务器"><a href="#发送ssh公钥到Linux服务器" class="headerlink" title="发送ssh公钥到Linux服务器"></a>发送ssh公钥到Linux服务器</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">$ ssh-copy-id -i ~/.ssh/id_rsa.pub root@192.168.1.1</span><br></pre></td></tr></table></figure><h1 id="链接Linux服务器"><a href="#链接Linux服务器" class="headerlink" title="链接Linux服务器"></a>链接Linux服务器</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ ssh root@192.168.1.1</span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;生成ssh公钥&quot;&gt;&lt;a href=&quot;#生成ssh公钥&quot; class=&quot;headerlink&quot; title=&quot;生成ssh公钥&quot;&gt;&lt;/a&gt;生成ssh公钥&lt;/h1&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;</summary>
+      
+    
+    
+    
+    
+    <category term="Linux" scheme="https://blog.xx996.top/tags/Linux/"/>
+    
+    <category term="SSH" scheme="https://blog.xx996.top/tags/SSH/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Vue在Nginx部署后刷新页面404</title>
+    <link href="https://blog.xx996.top/article/2617dc89.html"/>
+    <id>https://blog.xx996.top/article/2617dc89.html</id>
+    <published>2022-05-26T07:32:32.000Z</published>
+    <updated>2022-11-29T02:14:12.582Z</updated>
+    
+    <content type="html"><![CDATA[<p> 配置改成如下即可</p> <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"> location / &#123;</span><br><span class="line">    root /usr/share/nginx/html/cnode;</span><br><span class="line">    index index.html;</span><br><span class="line">    try_files $uri $uri/ @router;</span><br><span class="line">&#125;</span><br><span class="line"> location @router &#123;</span><br><span class="line">    rewrite ^.*$ /index.html last;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt; 配置改成如下即可&lt;/p&gt;
+ &lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2</summary>
+      
+    
+    
+    
+    
+    <category term="nginx" scheme="https://blog.xx996.top/tags/nginx/"/>
+    
+    <category term="vue" scheme="https://blog.xx996.top/tags/vue/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>在Linux中搜索最近修改的文件</title>
+    <link href="https://blog.xx996.top/article/40c667fc.html"/>
+    <id>https://blog.xx996.top/article/40c667fc.html</id>
+    <published>2022-05-25T03:00:21.000Z</published>
+    <updated>2022-11-29T02:14:12.582Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="指定时间内修改的文件"><a href="#指定时间内修改的文件" class="headerlink" title="指定时间内修改的文件"></a>指定时间内修改的文件</h1><h2 id="在十分钟内修改的"><a href="#在十分钟内修改的" class="headerlink" title="在十分钟内修改的"></a>在十分钟内修改的</h2><p> 搜索当前目录中 10 分钟内修改的所有文件</p> <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> find . -<span class="built_in">type</span> f -mmin -10</span> </span><br></pre></td></tr></table></figure><h2 id="一天之内修改的文件"><a href="#一天之内修改的文件" class="headerlink" title="一天之内修改的文件"></a>一天之内修改的文件</h2><p>  搜索当前目录中一天内修改的所有文件</p> <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> find . -<span class="built_in">type</span> f -mtime -1</span> </span><br></pre></td></tr></table></figure><h1 id="指定时间之前修改的文件"><a href="#指定时间之前修改的文件" class="headerlink" title="指定时间之前修改的文件"></a>指定时间之前修改的文件</h1><h2 id="十分钟之前修改的文件"><a href="#十分钟之前修改的文件" class="headerlink" title="十分钟之前修改的文件"></a>十分钟之前修改的文件</h2> <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> find . -<span class="built_in">type</span> f -mmin +10</span> </span><br></pre></td></tr></table></figure><h2 id="1天之前修改的文件"><a href="#1天之前修改的文件" class="headerlink" title="1天之前修改的文件"></a>1天之前修改的文件</h2> <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> find . -<span class="built_in">type</span> f -mtime +1</span> </span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;指定时间内修改的文件&quot;&gt;&lt;a href=&quot;#指定时间内修改的文件&quot; class=&quot;headerlink&quot; title=&quot;指定时间内修改的文件&quot;&gt;&lt;/a&gt;指定时间内修改的文件&lt;/h1&gt;&lt;h2 id=&quot;在十分钟内修改的&quot;&gt;&lt;a href=&quot;#在十分钟内修改的&quot; cla</summary>
+      
+    
+    
+    
+    <category term="操作系统" scheme="https://blog.xx996.top/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
+    
+    
+    <category term="linux" scheme="https://blog.xx996.top/tags/linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>linux删除指定时间的文件</title>
+    <link href="https://blog.xx996.top/article/9c9397cb.html"/>
+    <id>https://blog.xx996.top/article/9c9397cb.html</id>
+    <published>2022-05-11T02:56:04.000Z</published>
+    <updated>2022-11-29T02:14:12.582Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="删除超过30天的文件"><a href="#删除超过30天的文件" class="headerlink" title="删除超过30天的文件"></a>删除超过30天的文件</h1><p> 可以使用<code>find</code>命令搜索修改时间早于30天的文件</p> <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> find /tmp -<span class="built_in">type</span>  f -mtime +30</span></span><br></pre></td></tr></table></figure><p>验证一下搜索结果是否正确，避免误删文件。确认无误后，执行以下命令删除</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> find /tmp -<span class="built_in">type</span> f -mtime +30 -delete</span> </span><br></pre></td></tr></table></figure><h1 id="删除指定类型文件"><a href="#删除指定类型文件" class="headerlink" title="删除指定类型文件"></a>删除指定类型文件</h1><p>除了删除所有文件之外，还可以添加更多筛选器来查找命令。例如，只需要删除扩展名为“.log”并在30天之前修改的文件。</p><p>为了安全起见，首先进行试运行并列出符合条件的文件。</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> find /var/<span class="built_in">log</span> -name <span class="string">&quot;*.log&quot;</span> -<span class="built_in">type</span> f -mtime +30</span> </span><br></pre></td></tr></table></figure><p> 验证数据无误后，执行以下命令删除</p> <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> find /var/<span class="built_in">log</span> -name <span class="string">&quot;*.log&quot;</span> -<span class="built_in">type</span> f -mtime +30 -delete</span> </span><br></pre></td></tr></table></figure><h1 id="删除目录"><a href="#删除目录" class="headerlink" title="删除目录"></a>删除目录</h1><p> 以下命令将搜索 /var/log 目录下 90 天之前修改过的所有目录。<br> <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> find /var/<span class="built_in">log</span> -<span class="built_in">type</span> d -mtime +90</span> </span><br></pre></td></tr></table></figure><br> 我们可以使用命令行选项执行 <code>rm</code> 命令。查找命令输出将作为输入发送到 <code>rm</code> 命令。<code>-exec</code></p> <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> find /var/<span class="built_in">log</span> -<span class="built_in">type</span> d -mtime +30 -<span class="built_in">exec</span> rm -rf &#123;&#125; \;</span> </span><br></pre></td></tr></table></figure><blockquote><p>在删除目录之前，请确保没有删除任何有用的目录。有时，父目录修改日期可能早于子目录。在这种情况下，递归删除也可以删除子目录。</p></blockquote>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;删除超过30天的文件&quot;&gt;&lt;a href=&quot;#删除超过30天的文件&quot; class=&quot;headerlink&quot; title=&quot;删除超过30天的文件&quot;&gt;&lt;/a&gt;删除超过30天的文件&lt;/h1&gt;&lt;p&gt; 可以使用&lt;code&gt;find&lt;/code&gt;命令搜索修改时间早于30天的文件</summary>
+      
+    
+    
+    
+    
+    <category term="linux" scheme="https://blog.xx996.top/tags/linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>vite简单使用</title>
+    <link href="https://blog.xx996.top/article/896d8037.html"/>
+    <id>https://blog.xx996.top/article/896d8037.html</id>
+    <published>2022-05-10T07:25:16.000Z</published>
+    <updated>2022-11-29T02:14:12.598Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Vite是什么"><a href="#Vite是什么" class="headerlink" title="Vite是什么"></a>Vite是什么</h1><ul><li><p><code>Vite</code>是一个开发服务器，它基于<code>原生ES模块</code>提供了丰富的内建功能，比如惊人的<code>模块热更新</code></p></li><li><p>一套构建指令，它使用<code>Rollup</code>打包代码，并且是与配置的，可输出用于生产环境的高度优化过的静态资源</p></li></ul><h1 id="为什么使用Vite"><a href="#为什么使用Vite" class="headerlink" title="为什么使用Vite"></a>为什么使用Vite</h1><h2 id="存在的问题"><a href="#存在的问题" class="headerlink" title="存在的问题"></a>存在的问题</h2><p>在浏览器支持<code>ES</code>模块之前，<code>Javascript</code>并没有提供原生机制让开发者以模块化的方式进行开发。所以就出现了<code>webpack</code>和<code>Parcel</code>等打包工具，它们也极大的改善了前端开发者的开发体验。</p><p>但是随着项目越来越大，需要处理的代码也注解的增长。开发体验就不是那么友好了，通常需要几十秒甚至几分钟才可以启动开发服务器，即便使用热更新，也得等到几秒之后才能在页面显示出来，极大地影响开发者的心情和开发效率。</p><h2 id="Vite的解决方案"><a href="#Vite的解决方案" class="headerlink" title="Vite的解决方案"></a>Vite的解决方案</h2><p>当冷启动开发服务器时，基于打包器的方式启动必须优先抓取并构建你的整个应用，然后才能提供服务。</p><p><code>Vite</code>通过一开始讲应用中的模块区分为<code>依赖</code>和<code>源码</code>两类，改进了开发服务器启动时间。</p><h3 id="依赖"><a href="#依赖" class="headerlink" title="依赖"></a>依赖</h3><p>依赖大多为在开发时不会发生变动的纯<code>Javascript</code>。比如<code>axios</code>,一些较大的依赖处理起来也很高。</p><p>Vite会使用<code>esbuild预构建依赖</code>，这么做的目的有两个</p><h4 id="CommonJS-和-UMD-兼容性"><a href="#CommonJS-和-UMD-兼容性" class="headerlink" title="CommonJS 和 UMD 兼容性"></a><code>CommonJS</code> 和 <code>UMD</code> 兼容性</h4><p>  开发阶段中，<code>Vite</code>的开发服务器将所有代码视为原生<code>ES模块</code>。因此，<code>Vite</code>必须先将作为<code>CommonJS</code> 或 <code>UMD</code> 发布的依赖项转换为 <code>ESM</code>。</p><h4 id="性能"><a href="#性能" class="headerlink" title="性能"></a>性能</h4><p> Vite将有许多内部模块的ESM依赖关系转换为单个模块，以便后续页面加载性能，</p><blockquote><p>一些包将他们的ES模块构建作为许多单独的文件相互导入。当执行<code>import</code>时，浏览器会同时发出多个HTTP请求。尽管服务器在处理这些请求时没有问题，但大量的请求会在浏览器端造成网络阻塞，导致页面的加载速度过慢。 通过预购建<code>lodash-es</code>成为一个模块，我们就只需要发出一个HTTP请求了。</p></blockquote><h4 id="缓存"><a href="#缓存" class="headerlink" title="缓存"></a>缓存</h4><ul><li>文件系统缓存</li></ul><p>  Vite会将预购建的依赖缓存到<code>node_modules/.vite</code>, 它根据几个来源决定是否要重新运行与构建步骤 </p><ol><li><p><code>package.json</code>中的<code>dependencies </code>列表</p></li><li><p>包管理器的<code>lockfile</code>，例如<code>package-lock.json</code>,<code>yarn.lock</code>,<code>pnpm-lock.yaml</code></p></li><li><p>可能在<code>vite.config.js</code>相关字段中配置过的。</p></li></ol><p>   只有在上述其中一项发生更改时，才需要重新允许预购建。</p><pre><code>如果出于某些原因，需要强制`vite`重新构建依赖，可以使用`--force`命令行选项启动开发服务器，或者手动删除缓存目录 `node_modules/.vite`</code></pre><ul><li>浏览器缓存</li></ul><p> 解析后的依赖请求会以<code>HTTP</code>头<code>max-age=31536000,immutable</code>缓存。一旦被缓存，这些请求将永远不会在请求开发服务器。如果安装了不同版本，在附加不同的<code>query</code>使他们自动失效。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Vite是什么&quot;&gt;&lt;a href=&quot;#Vite是什么&quot; class=&quot;headerlink&quot; title=&quot;Vite是什么&quot;&gt;&lt;/a&gt;Vite是什么&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;Vite&lt;/code&gt;是一个开发服务器，它基于&lt;code&gt;原生ES模块</summary>
+      
+    
+    
+    
+    
+    <category term="vite" scheme="https://blog.xx996.top/tags/vite/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>github文件夹显示箭头</title>
+    <link href="https://blog.xx996.top/article/b49b1222.html"/>
+    <id>https://blog.xx996.top/article/b49b1222.html</id>
+    <published>2022-05-09T06:53:14.000Z</published>
+    <updated>2022-11-29T02:14:12.566Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li>删除文件夹里的<code>.git</code>目录</li><li> 执行 <code>git rm --cached  文件夹名</code> </li><li>git add .</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;删除文件夹里的&lt;code&gt;.git&lt;/code&gt;目录&lt;/li&gt;
+&lt;li&gt; 执行 &lt;code&gt;git rm --cached  文件夹名&lt;/code&gt; &lt;/li&gt;
+&lt;li&gt;git add .&lt;/li&gt;
+&lt;/ul&gt;
+</summary>
+      
+    
+    
+    
+    
+    <category term="git" scheme="https://blog.xx996.top/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>rails window环境安装与入门</title>
+    <link href="https://blog.xx996.top/article/5d3de2d5.html"/>
+    <id>https://blog.xx996.top/article/5d3de2d5.html</id>
+    <published>2022-04-11T02:38:35.000Z</published>
+    <updated>2022-11-29T02:14:12.582Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><p> <a href="https://railsinstaller.org/">下载</a><code>Windows</code>安装包，安装成功。</p><p>  打开终端输入</p>  <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ruby -v</span><br><span class="line">ruby 2.3.3p222 (2016-11-21 revision 56859) [i386-mingw32]</span><br></pre></td></tr></table></figure><h1 id="创建应用"><a href="#创建应用" class="headerlink" title="创建应用"></a>创建应用</h1><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash">  rails new blog</span></span><br></pre></td></tr></table></figure><p>创建之后进入目录安装依赖</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">  </span></span><br><span class="line"><span class="meta">$</span><span class="bash"> <span class="built_in">cd</span> blog</span></span><br><span class="line"><span class="meta">$</span><span class="bash"> bundle install</span></span><br></pre></td></tr></table></figure><p> 会出现<code>ssl</code>证书问题。</p><p>在终端中输入</p><blockquote><p>需要科学上网</p></blockquote><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> gem update --system</span></span><br></pre></td></tr></table></figure><p>完成之后重新安装依赖即可</p><h1 id="启动"><a href="#启动" class="headerlink" title="启动"></a>启动</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ruby bin/rails server</span><br></pre></td></tr></table></figure><h1 id="创建controller"><a href="#创建controller" class="headerlink" title="创建controller"></a>创建controller</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$  ruby bin/rails generate controller Welcome index</span><br></pre></td></tr></table></figure><h1 id="添加路由"><a href="#添加路由" class="headerlink" title="添加路由"></a>添加路由</h1><p> <code>config/routes.rb</code></p> <figure class="highlight ruby"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">resources <span class="symbol">:article</span></span><br></pre></td></tr></table></figure><h1 id="查看所有路由"><a href="#查看所有路由" class="headerlink" title="查看所有路由"></a>查看所有路由</h1> <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$  ruby bin/rails routes</span><br></pre></td></tr></table></figure><h1 id="创建模型"><a href="#创建模型" class="headerlink" title="创建模型"></a>创建模型</h1> <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ ruby bin/rails generate model Article title:string text:text</span><br><span class="line"></span><br><span class="line">$ ruby bin/rails db:migrate # 同步模型</span><br></pre></td></tr></table></figure><h1 id="接收参数"><a href="#接收参数" class="headerlink" title="接收参数"></a>接收参数</h1> <figure class="highlight ruby"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">@article</span> = Article.new(params.<span class="keyword">require</span>(<span class="symbol">:article</span>).permit(<span class="symbol">:title</span>, <span class="symbol">:text</span>))</span><br></pre></td></tr></table></figure><h1 id="字段验证"><a href="#字段验证" class="headerlink" title="字段验证"></a>字段验证</h1> <figure class="highlight ruby"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Article</span> &lt; ApplicationRecord</span></span><br><span class="line">  validates <span class="symbol">:title</span>, <span class="symbol">presence:</span> <span class="literal">true</span>,</span><br><span class="line">                    <span class="symbol">length:</span> &#123; <span class="symbol">minimum:</span> <span class="number">5</span> &#125;</span><br><span class="line"><span class="keyword">end</span></span><br></pre></td></tr></table></figure><h1 id="controller-增加前缀"><a href="#controller-增加前缀" class="headerlink" title="controller 增加前缀"></a>controller 增加前缀</h1> <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rails g controller &#x27;api/v1/users&#x27; </span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;安装&quot;&gt;&lt;a href=&quot;#安装&quot; class=&quot;headerlink&quot; title=&quot;安装&quot;&gt;&lt;/a&gt;安装&lt;/h1&gt;&lt;p&gt; &lt;a href=&quot;https://railsinstaller.org/&quot;&gt;下载&lt;/a&gt;&lt;code&gt;Windows&lt;/code&gt;安装包，安</summary>
+      
+    
+    
+    
+    
+    <category term="rails" scheme="https://blog.xx996.top/tags/rails/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>webstorm与vscode格式化</title>
+    <link href="https://blog.xx996.top/article/a710b611.html"/>
+    <id>https://blog.xx996.top/article/a710b611.html</id>
+    <published>2021-11-26T01:15:04.000Z</published>
+    <updated>2022-11-29T02:14:12.582Z</updated>
+    
+    <content type="html"><![CDATA[<p>到了新公司发现同事用的都是VSCode，而VSCode的格式化代码与WebStorm的不一致。</p><p>因为前后端都做，用惯了JetBrains全家桶，导致不太适应VSCode，最后所以打算调整一下代码的格式化，继续用webstorm开发。</p><ul><li>自闭合的标签，闭合前补充空格</li></ul><p><code>Settings &gt; Editor &gt; Code Style &gt; HTML &gt; Other(Tab页) &gt; 勾选 in empty tag</code></p><ul><li>句尾冒号分割，永远使用单引号，多行保留最后一项的逗号</li></ul><p><code>Settings &gt; Editor &gt; Code Style &gt; JavaScript &gt; Punctuation(Tab页) &gt;</code></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">use semicolon to terminate statement always</span><br><span class="line">use single quotes always</span><br><span class="line">Trailing comma Add when multiline</span><br></pre></td></tr></table></figure><ul><li>使用空格代替tab，tab展示为两个空格，代码缩进为两个空格</li></ul><p><code>Settings &gt; Editor &gt; Code Style &gt; JavaScript &gt; Tabs and Indents(Tab页) &gt; 不勾选 Use Tab character</code></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Tab Size: 2</span><br><span class="line">Indent: 2</span><br><span class="line">Continuation indent: 2</span><br></pre></td></tr></table></figure><ul><li>对象花括号和中间键值填充空格(包括ES6 的import export)</li></ul><p><code>Settings &gt; Editor &gt; Code Style &gt; JavaScript &gt; Spaces(Tab页) &gt; Within &gt; 勾选Object literal braces 和 ES6 import/export braces</code><br>————————————————<br>版权声明：本文为CSDN博主「咕了个咕」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。<br>原文链接：<a href="https://blog.csdn.net/Azhuzhu_chaste/article/details/106636056">https://blog.csdn.net/Azhuzhu_chaste/article/details/106636056</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;到了新公司发现同事用的都是VSCode，而VSCode的格式化代码与WebStorm的不一致。&lt;/p&gt;
+&lt;p&gt;因为前后端都做，用惯了JetBrains全家桶，导致不太适应VSCode，最后所以打算调整一下代码的格式化，继续用webstorm开发。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;</summary>
+      
+    
+    
+    
+    
+    <category term="jenkins" scheme="https://blog.xx996.top/tags/jenkins/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>css优先级</title>
+    <link href="https://blog.xx996.top/article/8954c4f1.html"/>
+    <id>https://blog.xx996.top/article/8954c4f1.html</id>
+    <published>2021-11-09T08:08:39.000Z</published>
+    <updated>2022-11-29T02:14:12.566Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="内联样式优先与Style标签"><a href="#内联样式优先与Style标签" class="headerlink" title="内联样式优先与Style标签"></a>内联样式优先与Style标签</h1><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">&quot;en&quot;</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;UTF-8&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;X-UA-Compatible&quot;</span> <span class="attr">content</span>=<span class="string">&quot;IE=edge&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;viewport&quot;</span> <span class="attr">content</span>=<span class="string">&quot;width=device-width, initial-scale=1.0&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>Document<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="css"></span></span><br><span class="line"><span class="css">        <span class="selector-tag">h1</span> &#123;</span></span><br><span class="line"><span class="css">            <span class="attribute">color</span>: red;</span></span><br><span class="line"><span class="css">        &#125;</span></span><br><span class="line"><span class="css">    </span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">h1</span> <span class="attr">style</span>=<span class="string">&quot;color: blue;&quot;</span>&gt;</span>CSS测试<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure><p><img src="https://s3.bmp.ovh/imgs/2022/05/25/fe064c239e0b5b81.png"></p><h1 id="后声明的优先于先声明的"><a href="#后声明的优先于先声明的" class="headerlink" title="后声明的优先于先声明的"></a>后声明的优先于先声明的</h1><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">&quot;en&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;UTF-8&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;X-UA-Compatible&quot;</span> <span class="attr">content</span>=<span class="string">&quot;IE=edge&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;viewport&quot;</span> <span class="attr">content</span>=<span class="string">&quot;width=device-width, initial-scale=1.0&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>style与link<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="css"></span></span><br><span class="line"><span class="css">        <span class="selector-tag">h1</span> &#123;</span></span><br><span class="line"><span class="css">            <span class="attribute">color</span>: red;</span></span><br><span class="line"><span class="css">        &#125;</span></span><br><span class="line"><span class="css">    </span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">&quot;stylesheet&quot;</span> <span class="attr">href</span>=<span class="string">&quot;./style.css&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">h1</span>&gt;</span>CSS测试<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure><p><code>style.css</code></p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">h1</span>&#123;<span class="attribute">color</span>: blue;&#125;</span><br></pre></td></tr></table></figure><p><img src="https://s3.bmp.ovh/imgs/2022/05/25/fe064c239e0b5b81.png"></p><h1 id="Style标签优先于link标签"><a href="#Style标签优先于link标签" class="headerlink" title="Style标签优先于link标签"></a>Style标签优先于link标签</h1><blockquote><p>style标签在link标签后面的前提下,其实也是先后顺序的比较</p></blockquote><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">&quot;en&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;UTF-8&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;X-UA-Compatible&quot;</span> <span class="attr">content</span>=<span class="string">&quot;IE=edge&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;viewport&quot;</span> <span class="attr">content</span>=<span class="string">&quot;width=device-width, initial-scale=1.0&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>style与link<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">&quot;stylesheet&quot;</span> <span class="attr">href</span>=<span class="string">&quot;./style.css&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="css"></span></span><br><span class="line"><span class="css">        <span class="selector-tag">h1</span> &#123;</span></span><br><span class="line"><span class="css">            <span class="attribute">color</span>: red;</span></span><br><span class="line"><span class="css">        &#125;</span></span><br><span class="line"><span class="css">    </span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">h1</span>&gt;</span>CSS测试<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure><p><code>style.css</code></p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">h1</span>&#123;<span class="attribute">color</span>: blue;&#125;</span><br></pre></td></tr></table></figure><p><img src="https://gitee.com/zeze.li/blogimage/raw/master/css-test-002.png"></p><h1 id="id优先与class"><a href="#id优先与class" class="headerlink" title="id优先与class"></a>id优先与class</h1><blockquote><p>即使class在id之后声明</p></blockquote> <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"> <span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">&quot;en&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;UTF-8&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;X-UA-Compatible&quot;</span> <span class="attr">content</span>=<span class="string">&quot;IE=edge&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;viewport&quot;</span> <span class="attr">content</span>=<span class="string">&quot;width=device-width, initial-scale=1.0&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>class与id<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="css"></span></span><br><span class="line"><span class="css">        <span class="selector-id">#text</span> &#123;</span></span><br><span class="line"><span class="css">            <span class="attribute">color</span>: red;</span></span><br><span class="line"><span class="css">        &#125;</span></span><br><span class="line"><span class="css">        <span class="selector-class">.text</span> &#123;</span></span><br><span class="line"><span class="css">            <span class="attribute">color</span>: blue;</span></span><br><span class="line"><span class="css">        &#125;</span></span><br><span class="line"><span class="css">    </span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">h1</span> <span class="attr">class</span>=<span class="string">&quot;text&quot;</span> <span class="attr">id</span>=<span class="string">&quot;text&quot;</span>&gt;</span>CSS测试<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure><p><img src="https://s3.bmp.ovh/imgs/2022/05/25/cb87d29bbeff0e3e.png"></p><h1 id="选择器选择器越详细优先级越高"><a href="#选择器选择器越详细优先级越高" class="headerlink" title="选择器选择器越详细优先级越高"></a>选择器选择器越详细优先级越高</h1> <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"> <span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">&quot;en&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;UTF-8&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;X-UA-Compatible&quot;</span> <span class="attr">content</span>=<span class="string">&quot;IE=edge&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;viewport&quot;</span> <span class="attr">content</span>=<span class="string">&quot;width=device-width, initial-scale=1.0&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>选择器优先级<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="css"></span></span><br><span class="line"><span class="css">        <span class="selector-class">.parent</span> <span class="selector-tag">h1</span> &#123;</span></span><br><span class="line"><span class="css">            <span class="attribute">color</span>: red;</span></span><br><span class="line"><span class="css">        &#125;</span></span><br><span class="line"><span class="css">        <span class="selector-tag">h1</span> &#123;</span></span><br><span class="line"><span class="css">            <span class="attribute">color</span>: blue;</span></span><br><span class="line"><span class="css">        &#125;</span></span><br><span class="line"><span class="css">    </span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;parent&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">h1</span> <span class="attr">id</span>=<span class="string">&quot;text&quot;</span>&gt;</span>CSS测试<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure><p><img src="https://s3.bmp.ovh/imgs/2022/05/25/cb87d29bbeff0e3e.png"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;内联样式优先与Style标签&quot;&gt;&lt;a href=&quot;#内联样式优先与Style标签&quot; class=&quot;headerlink&quot; title=&quot;内联样式优先与Style标签&quot;&gt;&lt;/a&gt;内联样式优先与Style标签&lt;/h1&gt;&lt;figure class=&quot;highlight </summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
