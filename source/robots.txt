@@ -5,4 +5,4 @@ Allow: /archives/
 Allow: /categories/
 Allow: /tags/
 
-Sitemap: https://blog.xx996.top/sitemap.xml
+Sitemap: https://xx996.fun/sitemap.xml
