@@ -7,13 +7,13 @@ title: xx996
 subtitle: 
 description: 'blog xx996'
 keywords: 'xx996'
-author: xx小台灯
+author: xx996
 language: zh-CN
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://blog.xx996.top
+url: https://blog.xx996.fun
 abbrlink:
   enable: true
   alg: crc32  # 算法：crc16(default) and crc32

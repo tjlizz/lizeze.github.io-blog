@@ -71,8 +71,8 @@ footer:
 
   # Beian ICP and gongan information for Chinese users. See: https://beian.miit.gov.cn, http://www.beian.gov.cn
   beian:
-    enable: true
-    icp: 冀ICP备2021020075号
+    enable: false
+    icp: 
     # The digit in the num of gongan beian.
     gongan_id:  
     # The full num o gongan beian.
@@ -177,7 +177,7 @@ site_state: true
 # Key is the link label showing to end users.
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 social:
-  GitHub: https://github.com/xdm666 || fab fa-github
+ # GitHub: https://github.com/xdm666 || fab fa-github
   # E-Mail: mailto:yourname@gmail.com || fa fa-envelope
   #Weibo: https://weibo.com/yourname || fab fa-weibo
   #Google: https://plus.google.com/yourname || fab fa-google
@@ -389,7 +389,7 @@ bookmark:
 
 # `Follow me on GitHub` banner in the top-right corner.
 github_banner:
-  enable: true
+  enable: false
   permalink: https://github.com/xdm666
   title: Follow me on GitHub
  
