@@ -195,7 +195,7 @@ twitter:
 google_plus:
 fb_admins:
 fb_app_id:  
-beian: 冀ICP备2021020075号
+beian: 
      
 # profile
 profile:
@@ -203,15 +203,15 @@ profile:
   articleSelfBlock: false # 关闭文章下方的自我介绍
   avatar: images/avatar.jpg
   gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
-  author: xx小台灯
+  author: xx996
   author_title:  
   author_description: 个人简介。
   location: 北京
-  follow: https://github.com/lizeze
+  follow: 
   # Social Links
   social:
     links:
-      github: https://github.com/lizeze
+      github: 
       weibo: 
       twitter: 
       # facebook: /
