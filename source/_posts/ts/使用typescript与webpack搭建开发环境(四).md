@@ -48,5 +48,3 @@ module.exports = merge.merge(common, devConfig);
 不同的环境创建不同的`webpack.conf.xxx.js`即可
 
 注意修改`webconfig.conf.js`中的文件引用路径，因为它的位置改变了
-
-[获取代码](https://github.com/lizeze/webpack-ts-demo/commit/feec9a282047efee507212df04c1a7706ecddcbf)

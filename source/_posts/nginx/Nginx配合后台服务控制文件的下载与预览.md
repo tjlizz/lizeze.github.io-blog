@@ -32,4 +32,3 @@ date: 2021-09-10 21:35:10
 > 
 更多的[header](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Headers)介绍
 
-[完整代码](https://github.com/lizeze/note/issues/43)

@@ -85,7 +85,7 @@ ajaxGet("api11").then(
 
 
 ```
- [运行代码](https://codepen.io/lizeze/pen/rNwQBqv?editors=1111)
+ [运行代码](https://codepen.io/xx996/pen/rNwQBqv?editors=1111)
 
 上面的代码中使用`Promise`对象模拟了一个从后台服务取数据的过程,`ajaxGet`方法只有一个简单的逻辑判断,如果传如的参数是`api`那么会在一秒之后返回成功，否则，立即返回失败。
 
@@ -118,7 +118,7 @@ Promise.prototype.catch()方法是.then(null, rejection)或.then(undefined, reje
 
  ```
  
- [运行代码](https://codepen.io/lizeze/pen/yLXQLyK?editors=1111)
+ [运行代码](https://codepen.io/xx996/pen/yLXQLyK?editors=1111)
 
 
 ```javascript
@@ -135,7 +135,7 @@ ajaxGet("api").then(
 
 ```
 
-[运行代码](https://codepen.io/lizeze/pen/eYRQYpL?editors=1111)
+[运行代码](https://codepen.io/xx996/pen/eYRQYpL?editors=1111)
 
 # finally 方法
 
@@ -176,6 +176,6 @@ ajaxGet("api11").then(
 //"不管成不成功，我都会输出"
 ```
 
- [运行代码](https://codepen.io/lizeze/pen/BaZGxVG?editors=1111)
+ [运行代码](https://codepen.io/xx996/pen/BaZGxVG?editors=1111)
 
  `finally`的回调函数是没有参数的，无法得知`Promise`对象的结果是什么,这也表明不管最后的返回结果是什么，它都会执行

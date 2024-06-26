@@ -55,4 +55,3 @@ var list = (system.args + "").split(',');
 
 ![](https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/9/18/16d44da62d269ca4~tplv-t2oaga2asx-image.image)
 
-[Demo](https://github.com/lizeze/phantomjs-demo)

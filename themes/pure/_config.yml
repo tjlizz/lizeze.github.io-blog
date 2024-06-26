@@ -113,7 +113,7 @@ share:
 # 项目仓库信息（将会覆盖 github 项）
 repository:
   platform: github # 托管平台（github | gitee）
-  username: lizeze # 用户名
+  username: xx996 # 用户名
 
 # Comment
 # Gitment
@@ -132,8 +132,8 @@ comment:
     ClientSecret: 
     lazy: false
   gitalk: # gitalk. https://gitalk.github.io/
-    owner: lizeze  #必须. GitHub repository 所有者，可以是个人或者组织。
-    admin: lizeze #必须. GitHub repository 的所有者和合作者 (对这个 repository 有写权限的用户)。
+    owner: x996  #必须. GitHub repository 所有者，可以是个人或者组织。
+    admin: x996 #必须. GitHub repository 的所有者和合作者 (对这个 repository 有写权限的用户)。
     repo: gitalk #必须. GitHub repository.
     ClientID: 09d819e0e6087b032186 #必须. GitHub Application Client ID.
     ClientSecret: bd937237612bd47b1e2c680145e6d6cc972364fe  #必须. GitHub Application Client Secret.
@@ -230,7 +230,7 @@ profile:
     平面设计: ★★★☆☆
   # My Personal Links
   links:
-    Github: https://github.com/lizeze
+    Github: https://github.com/xx996
     Blog: #http://blog.cofess.com
     微博: #http://weibo.com/cofess
     花瓣: #http://huaban.com/cofess

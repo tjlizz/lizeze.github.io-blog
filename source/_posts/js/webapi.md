@@ -53,7 +53,7 @@ date: 2021-09-26 11:09:59
  let element=document.querySelector('.text').textContent;
  console.log(element); //1
  ```
- [运行代码](https://codepen.io/lizeze/pen/RwgeXNL?editors=1111)
+ [运行代码](https://codepen.io/xx996/pen/RwgeXNL?editors=1111)
 
 按照预期，输出的内容是`1`,是我想要的结果
 
@@ -69,7 +69,7 @@ let element=document.querySelector('span.text:nth-child(2)').textContent;
 console.log(element); //2
 
 ```
-[运行代码](https://codepen.io/lizeze/pen/WNOaVrL?editors=1111)
+[运行代码](https://codepen.io/xx996/pen/WNOaVrL?editors=1111)
 
  该方法支持**复杂选择器**
 
@@ -100,7 +100,7 @@ console.log(element); //2
  console.log(element); //1
  ```
  返回结果是1
- [运行代码](https://codepen.io/lizeze/pen/mdwzNEX?editors=1111)
+ [运行代码](https://codepen.io/xx996/pen/mdwzNEX?editors=1111)
 
  **就算页面中有多个`id`重复的元素，也是返回第一个元素**
 

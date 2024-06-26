@@ -77,4 +77,3 @@ date: 2021-09-10 21:17:28
 
 [更多loader](https://webpack.js.org/concepts/loaders/)
 
-[获取代码](https://github.com/lizeze/webpack-ts-demo)

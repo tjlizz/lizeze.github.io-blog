@@ -1,7 +1,6 @@
 ---
 title: MyBatis-Plus通用查询工具类
 tags:
-  - mybatis-plus
   - java
 categories: Java
 abbrlink: 939c1baf
@@ -277,6 +276,4 @@ public class BaseServiceImpl<M extends BaseMapper<T>, T> implements IBaseService
 
 MP实现了mapper层基础的CRUD方法，这里把一些常用的service层的方法整理了一下，又减少了一些代码量
 
- [代码地址](https://github.com/lizeze/mp-search)
  
- [使用示例](https://github.com/lizeze/mp-demo)

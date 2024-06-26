@@ -6,8 +6,8 @@ on:
       - main
 
 env:
-  GIT_USER: lizeze
-  GIT_EMAIL: lizeze.boy@gmail.com
+  GIT_USER: xx996
+  GIT_EMAIL: xx996.boy@gmail.com
   THEME_REPO: sanonz/hexo-theme-concise
   THEME_BRANCH: main
   DEPLOY_REPO: sanonz/sanonz.github.io

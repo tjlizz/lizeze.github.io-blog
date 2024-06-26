@@ -112,6 +112,6 @@ sayHello();
 
  可以正常的输出，到现在好像已经可以正常的使用了
  
-[点击](https://github.com/lizeze/es6-to-es5)获取源码 
+[点击](https://github.com/xx996/es6-to-es5)获取源码 
 
  

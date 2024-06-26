@@ -58,7 +58,6 @@ console.log(user.name); //张三
 console.log(user.age); //undefined
 ```
 
-[运行代码](https://codepen.io/lizeze/pen/wveyzmm?editors=1011)
 
 上面代码中，使用`let`定义了一个对象，并且有一个`name`属性
 
@@ -92,7 +91,7 @@ console.log(user.age); //18
 
 ```
 
-[运行代码](https://codepen.io/lizeze/pen/OJgQRKw)
+[运行代码](https://codepen.io/xx996/pen/OJgQRKw)
 
 使用了`Proxy`之后,发现和之前什么都不一样了，这是因为我们设置了`get`方法的拦截，当获取`name`属性的时候，我们返回一个固定的值，否则就返回年龄18。
 
@@ -102,7 +101,7 @@ console.log(user.age); //18
 
 这个时候可以验证一下这句话，我们不使用`Proxy`实例,看看会怎么样
 
-[运行代码](https://codepen.io/lizeze/pen/wveyoEV?editors=1111)
+[运行代码](https://codepen.io/xx996/pen/wveyoEV?editors=1111)
 
 ## set
 
@@ -127,7 +126,7 @@ console.log(user.age)//20
 user.age=200
 //Uncaught 你要成仙了! 
  ```
- [运行代码](https://codepen.io/lizeze/pen/oNwEazw?editors=1011)
+ [运行代码](https://codepen.io/xx996/pen/oNwEazw?editors=1011)
 
  当我们修改一个人的年龄大于140,就会触发异常
 
@@ -145,7 +144,7 @@ let proxy = new Proxy(1, {
 
 //Uncaught TypeError: Cannot create proxy with a non-object as target or handler 
  ```
- [运行代码](https://codepen.io/lizeze/pen/WNOKKBV?editors=1112)
+ [运行代码](https://codepen.io/xx996/pen/WNOKKBV?editors=1112)
 
  ```javascript
 
@@ -159,7 +158,7 @@ let proxy = new Proxy(1, {
 let obj = new proxy();
 //Uncaught TypeError: 'construct' on proxy: trap returned non-object ('1') 
  ```
- [运行代码](https://codepen.io/lizeze/pen/QWgBVWW?editors=1011)
+ [运行代码](https://codepen.io/xx996/pen/QWgBVWW?editors=1011)
 
  上面是两个错误的示例，下面写一个正确的写法
  
@@ -175,7 +174,7 @@ console.log(new p(1).value); // "called: 1"
                              // 10
  ```
 
- [运行代码](https://codepen.io/lizeze/pen/dyRjqPe?editors=1111)
+ [运行代码](https://codepen.io/xx996/pen/dyRjqPe?editors=1111)
 
 通过以上代码得出结论
 

@@ -74,4 +74,4 @@ $ tsc --init
 `http://localhost:8080/`
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210307115228200.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpNTY3Mg==,size_16,color_FFFFFF,t_70)
- 获取源码点击[这里](https://github.com/lizeze/webpack-ts-demo)
+ 获取源码点击[这里](https://github.com/xx996/webpack-ts-demo)

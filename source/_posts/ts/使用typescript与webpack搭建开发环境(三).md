@@ -85,4 +85,4 @@ module.exports = {
 
 不同环境的配置使用，建议参考官方[文档](https://webpack.js.org/configuration/devtool/#devtool),只有官方文档才是**最新最准确**的
 
-[获取代码](https://github.com/lizeze/webpack-ts-demo)
+[获取代码](https://github.com/xx996/webpack-ts-demo)

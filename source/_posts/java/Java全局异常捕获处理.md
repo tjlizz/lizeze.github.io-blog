@@ -301,6 +301,4 @@ public class GlobalExceptionAdvice {
 
 # 完整代码
 
-[Github](https://github.com/lizeze/exception-demo)
 
-[Gitee](https://gitee.com/zeze.li/exception-demo)
