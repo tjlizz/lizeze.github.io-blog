@@ -1,7 +1,6 @@
 ---
 title: 在Linux中搜索最近修改的文件
-tags: linux
-categories: 操作系统
+tags: 编程相关
 abbrlink: 40c667fc
 date: 2022-05-25 11:00:21
 ---

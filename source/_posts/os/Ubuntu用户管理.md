@@ -1,7 +1,6 @@
 ---
 title: Ubuntu用户管理
-tags: ubuntu
-categories: 操作系统
+tags: 编程相关
 abbrlink: c5a6ae78
 date: 2021-09-10 20:04:44
 ---

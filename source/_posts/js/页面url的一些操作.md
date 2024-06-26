@@ -1,7 +1,6 @@
 ---
 title: 页面url的一些操作
-tags:
-  - js
+tags: 编程相关
 abbrlink: c509c10d
 date: 2022-06-08 14:54:23
 ---

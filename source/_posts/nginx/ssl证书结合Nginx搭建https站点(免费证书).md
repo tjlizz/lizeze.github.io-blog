@@ -1,10 +1,6 @@
 ---
 title: ssl证书结合Nginx搭建https站点(免费证书)
-tags:
-  - https
-  - nginx
-  - linux
-categories: Nginx
+tags: 编程相关
 abbrlink: 915db80e
 date: 2021-09-10 20:30:49
 ---

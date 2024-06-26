@@ -1,6 +1,6 @@
 ---
 title: linux删除指定时间的文件
-tags: linux
+tags: 编程相关
 abbrlink: 9c9397cb
 date: 2022-05-11 10:56:04
 ---

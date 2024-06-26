@@ -2,9 +2,7 @@
 title: nginx反向代理websocket
 abbrlink: efc4f59c
 date: 2022-07-05 11:52:33
-tags:
-     - nginx
-     - websocket
+tags: 编程相关
 ---
 
 

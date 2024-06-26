@@ -1,7 +1,6 @@
 ---
 title: Ubuntu群组管理
-tags: ubuntu
-categories: 操作系统
+tags: 编程相关
 abbrlink: 3e1b66b7
 date: 2021-09-10 20:06:29
 ---

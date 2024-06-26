@@ -1,6 +1,6 @@
 ---
 title: Proxy基础用法
-tags: JavaScript
+tags: 编程相关
 abbrlink: 365c4e09
 date: 2021-09-17 16:44:13
 ---

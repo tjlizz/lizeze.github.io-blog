@@ -1,6 +1,6 @@
 ---
 title: webapi常用方法
-tags: JavaScript
+tags: 编程相关
 abbrlink: db7e49b1
 date: 2021-09-26 11:09:59
 ---

@@ -1,7 +1,6 @@
 ---
 title: Git删除提交到仓库的文件
-tags:
-  - git
+tags: 编程相关
 abbrlink: 45bcd07d
 date: 2022-07-18 10:37:58
 ---

@@ -1,8 +1,6 @@
 ---
 title: 发送ssh公钥到Linux服务器
-tags:
-  - Linux
-  - SSH
+tags: 编程相关
 abbrlink: 1c96518c
 date: 2022-05-31 14:33:53
 ---

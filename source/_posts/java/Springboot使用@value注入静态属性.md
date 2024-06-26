@@ -1,8 +1,6 @@
 ---
 title: Springboot使用@value注入静态属性
-tags:
-  - springboot
-categories: Java
+tags: 编程相关
 abbrlink: daa7cd7
 date: 2021-09-10 20:44:39
 ---

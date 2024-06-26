@@ -1,7 +1,6 @@
 ---
 title: TypeScript记录
-tags:
-  - typescript
+tags: 编程相关
 abbrlink: 1bc3f4bd
 date: 2022-09-05 15:45:33
 ---

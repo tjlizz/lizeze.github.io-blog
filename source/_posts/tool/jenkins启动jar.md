@@ -1,6 +1,6 @@
 ---
 title: jenkins启动jar
-tags: jenkins
+tags: 编程相关
 abbrlink: 8c429c4
 date: 2021-09-12 12:59:53
 ---

@@ -1,8 +1,7 @@
 ---
 title: jpa动态查询条件
-tags:
-  - java
-  - jpa
+tags: 编程相关
+
 abbrlink: 4a55ce1d
 date: 2022-06-26 21:52:12
 ---

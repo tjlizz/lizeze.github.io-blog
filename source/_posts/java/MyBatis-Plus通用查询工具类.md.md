@@ -1,8 +1,6 @@
 ---
 title: MyBatis-Plus通用查询工具类
-tags:
-  - java
-categories: Java
+tags: 编程相关
 abbrlink: 939c1baf
 date: 2021-09-10 20:39:04
 ---

@@ -1,8 +1,7 @@
 ---
 title: RestControllerAdvice返回String时异常
 tags:
-  - java
-  - springboot
+  - 编程相关
 abbrlink: 96cbeb8e
 date: 2022-07-14 09:55:18
 ---

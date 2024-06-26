@@ -1,6 +1,6 @@
 ---
 title: 限制Windows共享目录访问
-tags: windows
+tags: 编程相关
 abbrlink: 72aff137
 date: 2024-06-17 16:43:18
 ---

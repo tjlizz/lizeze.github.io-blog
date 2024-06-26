@@ -1,7 +1,6 @@
 ---
 title: git仓库同时上传到github和gitee
-tags: git
-categories: 工具
+tags: 编程相关
 abbrlink: f51db730
 date: 2021-09-12 12:30:43
 ---

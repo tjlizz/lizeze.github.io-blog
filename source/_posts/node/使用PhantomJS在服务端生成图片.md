@@ -1,6 +1,6 @@
 ---
 title: 使用PhantomJS在服务端生成图片
-tags: node
+tags: 编程相关 
 abbrlink: 32db227c
 date: 2021-09-12 13:23:22
 ---

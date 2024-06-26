@@ -1,7 +1,6 @@
 ---
 title: linux挂载windows共享文件夹
-tags: centos
-categories: 操作系统
+tags: 编程相关
 abbrlink: e04653fd
 date: 2021-09-10 20:20:00
 ---

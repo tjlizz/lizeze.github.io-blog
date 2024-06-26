@@ -1,6 +1,6 @@
 ---
 title: Selenium实战
-tags: java
+tags: 编程相关
 abbrlink: d009cca4
 date: 2021-09-29 11:48:06
 ---

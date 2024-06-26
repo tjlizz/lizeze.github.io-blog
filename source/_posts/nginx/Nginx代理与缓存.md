@@ -1,10 +1,6 @@
 ---
 title: Nginx代理设置反向代理与缓存
-tags:
-  - nginx
-  - proxy
-  - cache
-categories: Nginx
+tags: 编程相关
 abbrlink: 592ccd47
 date: 2021-09-10 20:27:20
 ---

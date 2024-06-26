@@ -1,7 +1,6 @@
 ---
 title: java设置使用代理
-tags: java
-categories: Java
+tags: 编程相关
 abbrlink: dc9ca875
 date: 2021-09-12 12:56:06
 ---

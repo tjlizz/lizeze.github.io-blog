@@ -1,9 +1,6 @@
 ---
 title: linux安装Nginx
-tags:
-  - nginx
-  - linux
-categories: Nginx
+tags: 编程相关
 abbrlink: 64d53267
 date: 2021-09-10 20:29:22
 ---

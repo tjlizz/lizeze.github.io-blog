@@ -1,7 +1,6 @@
 ---
 title: 分享几个css生成工具
-tags: css
-categories: 工具
+tags: 编程相关
 abbrlink: dba10516
 date: 2021-09-10 21:36:22
 ---

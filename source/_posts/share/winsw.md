@@ -1,6 +1,6 @@
 ---
 title: winsw注册win服务-实现开机启动
-tags: 工具
+tags: 编程相关
 abbrlink: 6bb7ec47
 date: 2024-06-13 14:28:01
 ---

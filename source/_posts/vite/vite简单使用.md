@@ -1,6 +1,6 @@
 ---
 title: vite简单使用
-tags: vite
+tags: 编程相关
 abbrlink: 896d8037
 date: 2022-05-10 15:25:16
 ---

@@ -1,9 +1,6 @@
 ---
 title: nvm安装node
-tags:
-  - nvm
-  - node
-categories: 工具
+tags: 编程相关
 abbrlink: 6875ed76
 date: 2021-09-10 20:32:36
 ---

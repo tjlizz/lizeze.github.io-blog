@@ -1,9 +1,6 @@
 ---
 title: 使用typescript与webpack搭建开发环境(一)
-tags:
-  - typescript
-  - webpack
-categories: TypeScript
+tags: 编程相关
 abbrlink: 4a713fe0
 date: 2021-09-10 21:16:29
 ---

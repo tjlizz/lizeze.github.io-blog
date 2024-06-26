@@ -1,7 +1,6 @@
 ---
 title: 免费获取JetBrains一年全家桶
-tags: JetBrains
-categories: 工具
+tags: 编程相关
 abbrlink: 4c17429a
 date: 2021-09-10 21:09:23
 ---

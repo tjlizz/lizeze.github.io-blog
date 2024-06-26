@@ -1,9 +1,6 @@
 ---
 title: ubuntu下WebStorm无法输入中文
-tags:
-  - ubuntu
-  - webstorm
-categories: 操作系统
+tags: 编程相关
 abbrlink: 4f6f6be0
 date: 2021-09-10 20:22:23
 ---

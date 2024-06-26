@@ -1,6 +1,6 @@
 ---
 title: linux设置开机启动
-tags: linux
+tags: 编程相关
 abbrlink: b9f29ac6
 date: 2021-09-12 12:54:48
 ---

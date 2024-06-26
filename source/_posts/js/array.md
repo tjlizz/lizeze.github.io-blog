@@ -1,6 +1,6 @@
 ---
 title: js数组方法整理
-tags: JavaScript
+tags: 编程相关
 abbrlink: 5570a359
 date: 2021-09-29 15:16:06
 ---

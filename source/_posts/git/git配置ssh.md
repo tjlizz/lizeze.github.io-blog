@@ -1,9 +1,6 @@
 ---
 title: git配置ssh
-tags:
-  - git
-  - ssh
-categories: 工具
+tags: 编程相关
 abbrlink: c8c56574
 date: 2021-09-10 21:02:39
 ---

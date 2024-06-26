@@ -1,9 +1,6 @@
 ---
 title: docker启动mysql容器之后报错
-tags:
-  - docker
-  - mysql
-categories: docker
+tags: 编程相关
 abbrlink: 51442d59
 date: 2021-09-12 12:51:13
 ---

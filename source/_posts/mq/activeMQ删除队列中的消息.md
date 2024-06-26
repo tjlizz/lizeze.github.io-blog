@@ -1,8 +1,6 @@
 ---
 title: activeMQ删除队列中的消息
-tags:
-  - java
-  - mq
+tags: 编程相关
 abbrlink: 63add551
 date: 2022-08-11 14:38:38
 ---

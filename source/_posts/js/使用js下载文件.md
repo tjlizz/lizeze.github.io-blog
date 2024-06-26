@@ -1,7 +1,6 @@
 ---
 title: 使用js下载文件
-tags: js
-categories: JavaScript
+tags: 编程相关
 abbrlink: 39437d16
 date: 2021-09-12 12:46:20
 ---

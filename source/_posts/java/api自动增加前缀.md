@@ -1,8 +1,7 @@
 ---
 title: api自动增加前缀
 tags:
-  - java
-  - springboot
+  - 编程相关
 categories: Java
 abbrlink: 2494396d
 date: 2021-09-10 21:45:52

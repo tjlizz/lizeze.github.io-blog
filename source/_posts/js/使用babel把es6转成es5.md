@@ -1,12 +1,6 @@
 ---
 title: 使用babel把es6转成es5
-tags:
-  - JavaScript
-  - es6
-  - es5
-  - babel
-  - webpack
-categories: JavaScript
+tags: 编程相关
 abbrlink: 9da0838d
 date: 2021-09-10 20:35:09
 ---

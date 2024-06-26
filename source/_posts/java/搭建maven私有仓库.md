@@ -1,10 +1,7 @@
 ---
 title: 搭建maven私有仓库.
-tags:
-  - java
-  - maven
-  - nexus
-categories: 工具
+tags: 
+  - 编程相关
 abbrlink: c3ac5d8c
 date: 2021-09-10 21:00:39
 ---
